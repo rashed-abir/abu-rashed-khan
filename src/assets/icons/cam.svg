@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512px" height="512px">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="86" y1="24.410561" x2="86" y2="146.941757" gradientTransform="matrix(2.976744,0,0,2.976744,0,0)">
+<stop offset="0" style="stop-color:rgb(90.196079%,90.196079%,90.196079%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(50.196081%,50.196081%,50.196081%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="86.075249" y1="26.203131" x2="86.075249" y2="146.804688" gradientTransform="matrix(2.976744,0,0,2.976744,0,0)">
+<stop offset="0" style="stop-color:rgb(90.196079%,90.196079%,90.196079%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(50.196081%,50.196081%,50.196081%);stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear2" gradientUnits="userSpaceOnUse" x1="57.78125" y1="59.125" x2="57.78125" y2="112.875" gradientTransform="matrix(2.976744,0,0,2.976744,0,0)">
+<stop offset="0" style="stop-color:rgb(100%,100%,100%);stop-opacity:1;"/>
+<stop offset="1" style="stop-color:rgb(72.156864%,72.156864%,72.156864%);stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface5502729">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 400 440 L 112 440 C 89.945312 440 72 422.054688 72 400 L 72 112 C 72 89.945312 89.945312 72 112 72 L 400 72 C 422.054688 72 440 89.945312 440 112 L 440 400 C 440 422.054688 422.054688 440 400 440 Z M 112 88 C 98.769531 88 88 98.769531 88 112 L 88 400 C 88 413.230469 98.769531 424 112 424 L 400 424 C 413.230469 424 424 413.230469 424 400 L 424 112 C 424 98.769531 413.230469 88 400 88 Z M 112 88 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 366.945312 382.433594 L 324.640625 336 L 200 336 L 200 176 L 324.28125 176 L 366.503906 129.566406 C 369.710938 126.039062 367.425781 120 362.894531 120 L 200 120 L 144 176 L 144 336 L 200 392 L 363.335938 392 C 367.871094 392 370.160156 385.960938 366.945312 382.433594 Z M 206.625 136 L 339.015625 136 L 317.191406 160 L 182.625 160 Z M 160 176 L 184 176 L 184 336 L 160 336 Z M 206.625 376 L 182.625 352 L 317.566406 352 L 339.433594 376 Z M 206.625 376 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear2);" d="M 160 176 L 184 176 L 184 336 L 160 336 Z M 160 176 "/>
+</g>
+</svg>

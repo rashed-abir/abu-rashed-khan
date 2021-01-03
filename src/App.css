@@ -1,38 +1,298 @@
-.App {
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(#00F260, #0575E6);
+  background-attachment: fixed;
+  color: #354358;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+
+}
+
+a{
+  text-decoration: none;
+  color: #354548;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #00F260;
+}
+
+.app_row{
+  height: 86vh;
+}
+
+.app_container{
+  padding-top: 13px;
+}
+
+.app_main_content{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px gray;
+}
+
+.sidebar{
+  background-color: #fff;
+  height: 100%;
+  border-radius: 20px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px gray;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar_image{
+  height: 250px;
+  width: 210px;
+  object-fit: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar_icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar_name{
+  font-size: 23px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+.sidebar_item{
+  margin-bottom: 6px;
+  margin-top: 6px;
+  padding: 7px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.sidebar_title{
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.sidebar_social-icons{
+  margin-left: 12px;
+}
+
+.sidebar_contact{
+  background-color: #dbdddf;
+  padding: 2px 0;
+  margin: 20px -15px;
+}
+
+.sidebar_email{
+  background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+  border-radius: 30px;
+  color: #fff;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+  transition: all 2s;
+}
+
+.sidebar_email:hover{
+  transform: scale(1.1);
+}
+
+.sidebar_resume:hover,
+.sidebar_github:hover{
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+/* navbar  */
+
+.navbar_items{
   display: flex;
-  flex-direction: column;
+}
+
+.navbar_active{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #354358;
+  border-bottom: 4px solid #00f260;
+}
+
+.navbar_item{
+  margin-right: 20px;
+  text-decoration: none;
+  color: #354358;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.navbar_item:hover{
+  background: -webkit-linear-gradient(#00F260, #0575E6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*  about */
+
+.about{
+  padding: 20px;
+  margin: -30px;
+}
+
+.about_intro{
+  font-size: 1rem;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.about_container{
+  background-color: #dbdddf;
+  padding: 30px 20px;
+}
+
+.about_heading{
+  font-size: 25px;
+  font-weight: 700;
+  color: #354358;
+}
+.skill-card{
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.skill-card_icon{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.skill-card-body{
+  margin-left: 15px;
+}
+.skill-card_content{
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6e7e91;
+}
+
+/* resume */
+
+.resume{
+  padding-top: 20px;
+}
+
+.resume-language_heading, 
+.resume-card_heading{
+  margin-left: 10px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #354358;
+  margin-top: 10px;
+}
+
+.resume-card_body{
+  margin-top: 10px;
+}
+
+.resume-card_title{
+  font-weight: 700;
+}
+
+.resume-card_name {
+  font-size: 16px;
+}
+.resume-card_details {
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+.bar {
+  width: 90%;
+  background-color: #f1f2f3;
+  border-radius: 20px;
+  margin-bottom: 12px;
+
+}
+
+.bar_icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.bar_wrapper {
+  background-image: linear-gradient(90deg, #00F260, #0575E6);
+  border-radius: 20px;
+  padding: 4px 14px;
+  color: #fff;
+  font-size: 0.9rem
+}
+
+/* project */
+
+.projects {
+  height: 72vh;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+
+.projectCard_wrapper {
+  margin: 10px 0;
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+  padding-bottom: 45px;
+}
+.projectCard_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: 1px solid #00F260;
+  transition: transform 0.3s linear;
+}
+.projectCard_image:hover {
+  transform: scale(1.05);
+}
+
+.projectCard_icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.projectCard_title {
+  margin-top: 12px;
+  font-size: 1rem;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.projects_navbar {
+  display: flex;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projects_navbar>div {
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .app_main_content{
+    margin-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .projectCard_wrapper{
+    padding-bottom: 60px;
   }
 }
