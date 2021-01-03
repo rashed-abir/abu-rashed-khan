@@ -61,7 +61,7 @@ function About() {
     >
       <h6 className="about_intro">
         I am currently pursuing B.SC(Final Year) in Computer Science Engineering
-        from Daffodil International. I consider myself who is persistent, a
+        from Daffodil International University. I consider myself who is persistent, a
         quick learner and loves problem solving by using simple and scalable
         solutions.
       </h6>

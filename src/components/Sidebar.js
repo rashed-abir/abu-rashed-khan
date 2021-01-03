@@ -63,7 +63,7 @@ function Sidebar() {
         >
           <img alt="Linked IN" className="sidebar_icon" src={linkedin} />
         </a>
-        <a href="!#" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/Abir97bdKhan" target="_blank" rel="noopener noreferrer">
           <img alt="Twitter" className="sidebar_icon" src={twitter} />
         </a>
       </figure>
