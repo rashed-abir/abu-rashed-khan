@@ -16,6 +16,10 @@ function Sidebar() {
     window.open("mailto:abir97bd@gmail.com");
   };
 
+  const handleCallMe = () => {
+    window.open("tel:+8801629341869");
+  };
+
   const navbar_varient = {
     hidden: {
       x: "-20vw",
@@ -63,7 +67,11 @@ function Sidebar() {
         >
           <img alt="Linked IN" className="sidebar_icon" src={linkedin} />
         </a>
-        <a href="https://twitter.com/Abir97bdKhan" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://twitter.com/Abir97bdKhan"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img alt="Twitter" className="sidebar_icon" src={twitter} />
         </a>
       </figure>
@@ -86,7 +94,11 @@ function Sidebar() {
           <img alt="email" className="sidebar_icon" src={email} />
           Abir97bd@gmail.com
         </div>
-        <div className="sidebar_item">
+        <div
+          className="sidebar_item"
+          onClick={handleCallMe}
+          style={{ cursor: "pointer" }}
+        >
           <img alt="phone" className="sidebar_icon" src={phone} />
           +880 162 9341869
         </div>
