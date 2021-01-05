@@ -95,7 +95,7 @@ function Sidebar() {
           Abir97bd@gmail.com
         </div>
         <div
-          className="sidebar_item"
+          className="sidebar_item phone"
           onClick={handleCallMe}
           style={{ cursor: "pointer" }}
         >

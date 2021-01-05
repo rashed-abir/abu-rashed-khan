@@ -84,6 +84,11 @@ a:hover{
   margin-left: 12px;
 }
 
+.phone:hover{
+  background-color: #f1f1f1;
+  color: #3ce08b;
+}
+
 .sidebar_contact{
   background-color: #dbdddf;
   padding: 2px 0;
