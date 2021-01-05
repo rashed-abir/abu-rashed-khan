@@ -49,8 +49,8 @@ a:hover{
 }
 
 .sidebar_image{
-  height: 250px;
-  width: 210px;
+  height: 225px;
+  width: 200px;
   object-fit: contain;
 }
 
@@ -140,8 +140,8 @@ a:hover{
 /*  about */
 
 .about{
-  padding: 20px;
-  margin: -30px;
+  height: 80vh;
+  overflow-y: auto;
 }
 
 .about_intro{
@@ -186,7 +186,9 @@ a:hover{
 /* resume */
 
 .resume{
+  height: 80vh;
   padding-top: 20px;
+  overflow-y: auto;
 }
 
 .resume-language_heading, 
@@ -239,7 +241,7 @@ a:hover{
 /* project */
 
 .projects {
-  height: 72vh;
+  height: 80vh;
   padding-top: 30px;
   overflow-y: auto;
 }
@@ -290,7 +292,7 @@ a:hover{
 
 @media only screen and (max-width: 600px) {
   .app_main_content{
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .projectCard_wrapper{
     padding-bottom: 60px;
