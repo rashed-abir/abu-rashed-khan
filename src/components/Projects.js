@@ -62,6 +62,13 @@ function Projects() {
         >
           Java
         </div>
+        <div
+          onClick={() => {
+            handleFilterCategory("javascript");
+          }}
+        >
+          JavaScript
+        </div>
       </div>
       <div className="row">
         {projects.map((project) => (

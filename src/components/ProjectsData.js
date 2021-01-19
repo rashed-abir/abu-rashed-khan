@@ -1,6 +1,7 @@
 import library from "../assets/projects_images/library.png";
 import cgpa from "../assets/projects_images/cgpa.png";
 import party from "../assets/projects_images/party.png";
+import movieapp from '../assets/projects_images/movieapp.png'
 
 const Data = [
   {
@@ -23,6 +24,13 @@ const Data = [
     deployed_url: "https://rashed2155.github.io/cgpa_calculator/",
     github_url: "https://github.com/rashed2155/cgpa_calculator/tree/master",
     category: ["html", "css", "javascript"],
+  },
+  {
+    name: "Movie Flex",
+    image: movieapp,
+    deployed_url: "https://github.com/rashed2155/movie-flex/tree/master",
+    github_url: "https://github.com/rashed2155/movie-flex/tree/master",
+    category: ["react.js", "node.js"],
   },
 ];
 
