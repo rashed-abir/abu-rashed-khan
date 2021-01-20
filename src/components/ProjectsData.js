@@ -28,7 +28,7 @@ const Data = [
   {
     name: "Movie Flex",
     image: movieapp,
-    deployed_url: "https://github.com/rashed2155/movie-flex/tree/master",
+    deployed_url: "https://rashed2155.github.io/movie-flex/",
     github_url: "https://github.com/rashed2155/movie-flex/tree/master",
     category: ["react.js", "node.js"],
   },
