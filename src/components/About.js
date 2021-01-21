@@ -22,7 +22,7 @@ function About() {
     {
       icon: api,
       title: "API Development",
-      about: "Develop robust REST API using ExpressJS-rest-api.",
+      about: "Develop robust REST API using ExpressJS-Rest-API.",
     },
     {
       icon: javag,
