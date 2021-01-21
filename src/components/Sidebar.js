@@ -90,7 +90,7 @@ function Sidebar() {
           <img alt="Location" className="sidebar_icon" src={pin} />
           Dhaka, Bangladesh
         </div>
-        <div className="sidebar_item">
+        <div className="sidebar_item" onClick={handleEmailMe}>
           <img alt="email" className="sidebar_icon" src={email} />
           Abir97bd@gmail.com
         </div>

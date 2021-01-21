@@ -57,8 +57,15 @@ a:hover{
 
 .sidebar_image{
   height: 225px;
-  width: 200px;
+  width: 220px;
   object-fit: contain;
+  border: 3px solid #60f79c;
+  border-radius: 50%;
+  background-color: #e8eaec;
+  transition: transform 0.2s linear;
+}
+.sidebar_image:hover{
+  transform: scale(1.02);
 }
 
 .sidebar_icon{
