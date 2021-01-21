@@ -12,7 +12,7 @@ import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 
 function App() {
-  return (
+  return ( 
     <Router>
       <div className="App">
         <div className="container app_container">
