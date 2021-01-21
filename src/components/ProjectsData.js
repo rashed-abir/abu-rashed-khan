@@ -1,7 +1,8 @@
 import library from "../assets/projects_images/library.png";
 import cgpa from "../assets/projects_images/cgpa.png";
 import party from "../assets/projects_images/party.png";
-import movieapp from '../assets/projects_images/movieapp.png'
+import movieapp from '../assets/projects_images/movieapp.png';
+import covid from '../assets/projects_images/covid.png';
 
 const Data = [
   {
@@ -30,6 +31,13 @@ const Data = [
     image: movieapp,
     deployed_url: "https://rashed2155.github.io/movie-flex/",
     github_url: "https://github.com/rashed2155/movie-flex/tree/master",
+    category: ["react.js", "node.js"],
+  },
+  {
+    name: "Corona Virus Report",
+    image: covid,
+    deployed_url: "https://rashed2155.github.io/covid19-report/",
+    github_url: "https://github.com/rashed2155/covid19-report/tree/master",
     category: ["react.js", "node.js"],
   },
 ];
