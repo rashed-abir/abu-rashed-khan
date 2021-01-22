@@ -17,12 +17,12 @@ function About() {
     {
       icon: backend,
       title: "Backend Development",
-      about: "Handle database, server, api using ExpressJS and MySql/MongoDB.",
+      about: "i can Handle database, server, API using ExpressJS and MySql/MongoDB.",
     },
     {
       icon: api,
       title: "API Development",
-      about: "Develop robust REST API using ExpressJS-Rest-API.",
+      about: "I can Develop robust REST API using ExpressJS-Rest-API.",
     },
     {
       icon: javag,

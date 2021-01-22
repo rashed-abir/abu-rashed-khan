@@ -202,13 +202,13 @@ a:hover{
   height: 40px;
   margin-right: 10px;
 }
-.skill-card-body{
-  margin-left: 15px;
+.skill-card_body{
+  margin-left: 5px;
 }
 .skill-card_content{
-  margin: 0;
   font-size: 0.9rem;
   color: #6e7e91;
+  text-transform: capitalize;
 }
 
 /* resume */
