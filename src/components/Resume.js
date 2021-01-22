@@ -75,15 +75,34 @@ function Resume() {
           </div>
         </div>
         <div className="col-lg-6 resume-card">
-          <h4 className="resume-card_heading" style={{marginBottom:"27px"}} >Certificates</h4>
+          <h4 className="resume-card_heading" style={{ marginBottom: "18px" }}>
+            Certificates
+          </h4>
           {CertificateData.map((data) => (
             <div
               className="resume-card_body"
               key={data.heading}
-              style={{ display: "flex" }}
+              style={{
+                display: "flex",
+                border: "1px solid #f1f2f3",
+                padding: "5px",
+                marginBottom: "-15px",
+              }}
             >
-              <p className="resume-card_name" style={{fontWeight:"500", marginTop:"-15px"}}>{data.heading}</p>
-              <a href={data.link} target="_blank" rel="noopener noreferrer" style={{fontSize:"15px"}} >
+              <p className="resume-card_name" style={{ fontWeight: "500" }}>
+                {data.heading}
+              </p>
+              <a
+                href={data.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  fontSize: "15px",
+                  borderLeft: "1px solid #f1f2f3",
+                  paddingLeft: "5px",
+                  transition: "all 0.2s"
+                }}
+              >
                 (verify)
               </a>
             </div>
