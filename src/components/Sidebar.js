@@ -9,7 +9,7 @@ import pin from "../assets/icons/pin.png";
 import aburashedkhan from "../assets/aburashedkhan.pdf";
 import email from "../assets/icons/email.png";
 import phone from "../assets/icons/phone.png";
-import instagram from "../assets/icons/instagram.png"
+import instagram from "../assets/icons/instagram.png";
 import { motion } from "framer-motion";
 
 function Sidebar() {
@@ -59,28 +59,44 @@ function Sidebar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img alt="Facebook" className="sidebar_icon social-icon" src={facebook} />
+          <img
+            alt="Facebook"
+            className="sidebar_icon social-icon"
+            src={facebook}
+          />
         </a>
         <a
           href="https://www.linkedin.com/in/abu-rashed-khan/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img alt="Linked IN" className="sidebar_icon social-icon" src={linkedin} />
+          <img
+            alt="Linked IN"
+            className="sidebar_icon social-icon"
+            src={linkedin}
+          />
         </a>
         <a
           href="https://twitter.com/Abir97bdKhan"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img alt="Twitter" className="sidebar_icon social-icon" src={twitter} />
+          <img
+            alt="Twitter"
+            className="sidebar_icon social-icon"
+            src={twitter}
+          />
         </a>
         <a
           href="https://www.instagram.com/i_am_rashed_khan/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img alt="instagram" className="sidebar_icon social-icon" src={instagram} />
+          <img
+            alt="instagram"
+            className="sidebar_icon social-icon"
+            src={instagram}
+          />
         </a>
       </figure>
       <div className="sidebar_contact">
@@ -90,7 +106,12 @@ function Sidebar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github1} alt="Github" className="sidebar_icon" />
+            <img
+              src={github1}
+              alt="Github"
+              className="sidebar_icon"
+              style={{ height: "33px", width: "33px" }}
+            />
             Github
           </a>
         </div>

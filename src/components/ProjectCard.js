@@ -37,8 +37,8 @@ function ProjectCard({ project: { name, image, deployed_url, github_url } }) {
         <div className="projectCard_title">
           <a href={github_url} target="_blank" rel="noreferrer">
             <img src={github1} alt="github url" className="projectCard_icon" />
+            {name}
           </a>
-          {name}
         </div>
       </figure>
     </motion.div>
