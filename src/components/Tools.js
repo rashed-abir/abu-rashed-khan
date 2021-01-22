@@ -1,4 +1,4 @@
-import github from "../assets/icons/github.svg";
+import gitw from "../assets/icons/gitw.png";
 import photo from "../assets/icons/photo.svg";
 import filmora from "../assets/icons/filmora.svg";
 import cam from "../assets/icons/cam.svg";
@@ -6,7 +6,7 @@ import postman from "../assets/icons/postman.svg";
 
 const Tools = [
   {
-    icon: github,
+    icon: gitw,
     name: "Git",
     level: "77",
   },

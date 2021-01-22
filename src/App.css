@@ -1,6 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(#00F260, #0575E6);
+  background-image: linear-gradient(#13547a, #80d0c7);
   background-attachment: fixed;
   color: #354358;
 
@@ -17,7 +17,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+  background-image: linear-gradient(to right bottom, #13547a,#80d0c7);
 
 }
 
@@ -28,7 +28,7 @@ a{
 
 a:hover{
   text-decoration: none;
-  color: #00F260;
+  color: #13547a;
 }
 
 .app_row{
@@ -59,7 +59,7 @@ a:hover{
   height: 225px;
   width: 220px;
   object-fit: contain;
-  border: 3px solid #60f79c;
+  border: 3px solid #13547a;
   border-radius: 50%;
   background-color: #e8eaec;
   transition: transform 0.2s linear;
@@ -72,6 +72,13 @@ a:hover{
   width: 30px;
   height: 30px;
   margin-right: 5px;
+}
+
+.social-icon{
+  width: 40px;
+  height: 40px;
+  margin-top: -5px;
+  margin-bottom: -8px;
 }
 
 .sidebar_name{
@@ -92,6 +99,8 @@ a:hover{
   background-color: #f1f1f1;
   border-radius: 30px;
   font-weight: 600;
+  text-align: center;
+  margin: auto;
 }
 
 .sidebar_social-icons{
@@ -100,7 +109,7 @@ a:hover{
 
 .phone:hover{
   background-color: #f1f1f1;
-  color: #3ce08b;
+  color: #13547a;
 }
 
 .sidebar_contact{
@@ -110,7 +119,7 @@ a:hover{
 }
 
 .sidebar_email{
-  background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+  background-image: linear-gradient(to right bottom, #13547a,#80d0c7);
   border-radius: 30px;
   color: #fff;
   margin: 15px 25px 0px;
@@ -138,7 +147,7 @@ a:hover{
   font-size: 2rem;
   font-weight: 700;
   color: #354358;
-  border-bottom: 4px solid #00f260;
+  border-bottom: 4px solid #13547a;
 }
 
 .navbar_item{
@@ -150,7 +159,7 @@ a:hover{
 }
 
 .navbar_item:hover{
-  background: -webkit-linear-gradient(#00F260, #0575E6);
+  background: -webkit-linear-gradient(#13547a, #80d0c7);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -250,7 +259,7 @@ a:hover{
 }
 
 .bar_wrapper {
-  background-image: linear-gradient(90deg, #00F260, #0575E6);
+  background-image: linear-gradient(#13547a,#80d0c7);
   border-radius: 20px;
   padding: 4px 14px;
   color: #fff;
@@ -276,7 +285,7 @@ a:hover{
   width: 100%;
   height: 100%;
   border-radius: 30px;
-  border: 1px solid #00F260;
+  border: 1px solid #13547a;
   transition: transform 0.3s linear;
 }
 .projectCard_image:hover {

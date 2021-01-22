@@ -1,11 +1,11 @@
 import React from "react";
 import rashed2 from "../assets/images/rashed2.png";
-import facebook from "../assets/icons/facebook.svg";
-import linkedin from "../assets/icons/linkedin.svg";
-import twitter from "../assets/icons/twitter.svg";
-import github from "../assets/icons/github.svg";
-import tie from "../assets/icons/tie.svg";
-import pin from "../assets/icons/pin.svg";
+import facebook from "../assets/icons/facebook.png";
+import linkedin from "../assets/icons/linkedin.png";
+import twitter from "../assets/icons/twitter.png";
+import github1 from "../assets/icons/github1.png";
+import tie from "../assets/icons/tie.png";
+import pin from "../assets/icons/pin.png";
 import aburashedkhan from "../assets/aburashedkhan.pdf";
 import email from "../assets/icons/email.png";
 import phone from "../assets/icons/phone.png";
@@ -58,21 +58,21 @@ function Sidebar() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img alt="Facebook" className="sidebar_icon" src={facebook} />
+          <img alt="Facebook" className="sidebar_icon social-icon" src={facebook} />
         </a>
         <a
           href="https://www.linkedin.com/in/abu-rashed-khan/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img alt="Linked IN" className="sidebar_icon" src={linkedin} />
+          <img alt="Linked IN" className="sidebar_icon social-icon" src={linkedin} />
         </a>
         <a
           href="https://twitter.com/Abir97bdKhan"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img alt="Twitter" className="sidebar_icon" src={twitter} />
+          <img alt="Twitter" className="sidebar_icon social-icon" src={twitter} />
         </a>
       </figure>
       <div className="sidebar_contact">
@@ -82,7 +82,7 @@ function Sidebar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github} alt="Github" className="sidebar_icon" />
+            <img src={github1} alt="Github" className="sidebar_icon" />
             Github
           </a>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import github from "../assets/icons/github.svg";
+import github1 from "../assets/icons/github1.png";
 import { motion } from "framer-motion";
 
 const navbar_varient = {
@@ -36,7 +36,7 @@ function ProjectCard({ project: { name, image, deployed_url, github_url } }) {
         </a>
         <div className="projectCard_title">
           <a href={github_url} target="_blank" rel="noreferrer">
-            <img src={github} alt="github url" className="projectCard_icon" />
+            <img src={github1} alt="github url" className="projectCard_icon" />
           </a>
           {name}
         </div>

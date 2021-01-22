@@ -1,8 +1,8 @@
 import React from "react";
-import api from "../assets/icons/api.svg";
-import computer from "../assets/icons/computer.svg";
-import backend from "../assets/icons/backend.svg";
-import javag from "../assets/icons/javag.svg";
+import api from "../assets/icons/api.png";
+import computer from "../assets/icons/computer.png";
+import backend from "../assets/icons/backend.png";
+import javag from "../assets/icons/javag.png";
 import SkillCard from "./SkillCard";
 import { motion } from "framer-motion";
 
