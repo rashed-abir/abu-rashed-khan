@@ -9,6 +9,7 @@ import pin from "../assets/icons/pin.png";
 import aburashedkhan from "../assets/aburashedkhan.pdf";
 import email from "../assets/icons/email.png";
 import phone from "../assets/icons/phone.png";
+import instagram from "../assets/icons/instagram.png"
 import { motion } from "framer-motion";
 
 function Sidebar() {
@@ -73,6 +74,13 @@ function Sidebar() {
           rel="noopener noreferrer"
         >
           <img alt="Twitter" className="sidebar_icon social-icon" src={twitter} />
+        </a>
+        <a
+          href="https://www.instagram.com/i_am_rashed_khan/?hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img alt="instagram" className="sidebar_icon social-icon" src={instagram} />
         </a>
       </figure>
       <div className="sidebar_contact">
