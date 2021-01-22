@@ -17,7 +17,8 @@ function About() {
     {
       icon: backend,
       title: "Backend Development",
-      about: "i can Handle database, server, API using ExpressJS and MySql/MongoDB.",
+      about:
+        "i can Handle database, server, API using ExpressJS and MySql/MongoDB.",
     },
     {
       icon: api,
@@ -44,11 +45,11 @@ function About() {
       },
     },
     exit: {
-      opacity:0,
+      opacity: 0,
       transition: {
-        ease: 'easeInOut',
-      }
-    } 
+        ease: "easeInOut",
+      },
+    },
   };
 
   return (
@@ -57,13 +58,18 @@ function About() {
       variants={navbar_varient}
       initial="hidden"
       animate="visible"
-      exit='exit'
+      exit="exit"
     >
       <h6 className="about_intro">
         I am currently pursuing B.SC(Final Year) in Computer Science Engineering
-        from Daffodil International University. I consider myself who is persistent, a
-        quick learner and loves problem solving by using simple and scalable
-        solutions.
+        from Daffodil International University. I consider myself who is
+        persistent, a quick learner and loves problem solving by using simple
+        and scalable solutions.
+      </h6>
+      <h6 className="about_intro" style={{ marginTop: "-40px" }}>
+        In my everyday life, I try to love reading a book, write different
+        things, helping people, and coding as well. I also think about different
+        sorts of people. That basically inspires me as a different aspect.
       </h6>
       <div className="container about_container">
         <h6 className="about_heading">What I offer</h6>

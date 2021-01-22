@@ -176,6 +176,7 @@ a:hover{
   font-size: 1rem;
   padding: 20px;
   margin: 10px 0;
+  text-transform: capitalize;
 }
 
 .about_container{
@@ -242,6 +243,7 @@ a:hover{
 .resume-card_details {
   font-size: 0.9rem;
   padding-top: 5px;
+  text-transform: capitalize;
 }
 
 .bar {
