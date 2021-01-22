@@ -100,7 +100,9 @@ function Resume() {
                   fontSize: "15px",
                   borderLeft: "1px solid #f1f2f3",
                   paddingLeft: "5px",
-                  transition: "all 0.2s"
+                  transition: "all 0.2s",
+                  alignItems: "center",
+                  margin: "auto"
                 }}
               >
                 (verify)
