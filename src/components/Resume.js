@@ -5,6 +5,7 @@ import Bar from "./Bar";
 import { motion } from "framer-motion";
 import EducationData from "./EducationData";
 import ExperienceData from "./ExperienceData";
+import CertificateData from "./CertificateData";
 
 function Resume() {
   const navbar_varient = {
@@ -72,6 +73,21 @@ function Resume() {
               <Bar valeu={tool} />
             ))}
           </div>
+        </div>
+        <div className="col-lg-6 resume-card">
+          <h4 className="resume-card_heading" style={{marginBottom:"27px"}} >Certificates</h4>
+          {CertificateData.map((data) => (
+            <div
+              className="resume-card_body"
+              key={data.heading}
+              style={{ display: "flex" }}
+            >
+              <p className="resume-card_name" style={{fontWeight:"500", marginTop:"-15px"}}>{data.heading}</p>
+              <a href={data.link} target="_blank" rel="noopener noreferrer" style={{fontSize:"15px"}} >
+                (verify)
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </motion.div>
