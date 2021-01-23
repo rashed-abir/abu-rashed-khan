@@ -74,6 +74,7 @@ function Sidebar() {
             alt="Linked IN"
             className="sidebar_icon social-icon"
             src={linkedin}
+            style={{ width: "44.4px", height: "44.4px" }}
           />
         </a>
         <a

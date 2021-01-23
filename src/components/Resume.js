@@ -84,12 +84,15 @@ function Resume() {
               key={data.heading}
               style={{
                 display: "flex",
-                border: "1px solid #f1f2f3",
+                border: "1px solid #dbdddf",
                 padding: "5px",
-                marginBottom: "-15px",
+                marginBottom: "-10px",
               }}
             >
-              <p className="resume-card_name" style={{ fontWeight: "500" }}>
+              <p
+                className="resume-card_name"
+                style={{ fontWeight: "500", margin: "auto" }}
+              >
                 {data.heading}
               </p>
               <a
@@ -97,12 +100,12 @@ function Resume() {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  fontSize: "15px",
-                  borderLeft: "1px solid #f1f2f3",
+                  fontSize: "13px",
+                  borderLeft: "1px solid #dbdddf",
                   paddingLeft: "5px",
                   transition: "all 0.2s",
                   alignItems: "center",
-                  margin: "auto"
+                  margin: "auto",
                 }}
               >
                 (verify)
