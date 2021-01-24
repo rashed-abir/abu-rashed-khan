@@ -3,6 +3,7 @@ import photo from "../assets/icons/photo.svg";
 import filmora from "../assets/icons/filmora.svg";
 import cam from "../assets/icons/cam.svg";
 import postman from "../assets/icons/postman.svg";
+import mongo from "../assets/icons/mongo.png";
 
 const Tools = [
   {
@@ -27,8 +28,13 @@ const Tools = [
   },
   {
     icon: postman,
-    name: "Postman API",
+    name: "Postman",
     level: "65",
+  },
+  {
+    icon: mongo,
+    name: "Mongo DB",
+    level: "40",
   },
 ];
 
