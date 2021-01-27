@@ -37,6 +37,17 @@ const CertificateData = [
     link:
       "https://www.coursera.org/account/accomplishments/verify/CY6GQXYA24ER?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course",
   },
+  {
+    heading:
+      "Coursera Certified IT Security: Defense against the digital dark arts (2020).",
+    link:
+      "https://www.coursera.org/account/accomplishments/verify/JKBMJSUMFLQ3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course",
+  },
+  {
+    heading: "Coursera Certified Build a Python GUI with Tkinter (2020).",
+    link:
+      "https://www.coursera.org/account/accomplishments/verify/DJ5TTRBY4VKQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=project",
+  },
 ];
 
 export default CertificateData;

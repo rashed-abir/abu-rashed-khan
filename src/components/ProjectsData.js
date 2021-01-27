@@ -3,6 +3,7 @@ import cgpa from "../assets/projects_images/cgpa.png";
 import party from "../assets/projects_images/party.png";
 import movieapp from '../assets/projects_images/movieapp.png';
 import covid from '../assets/projects_images/covid.png';
+import weshop from '../assets/projects_images/weshop.png';
 
 const Data = [
   {
@@ -38,6 +39,13 @@ const Data = [
     image: covid,
     deployed_url: "https://rashed2155.github.io/covid19-report/",
     github_url: "https://github.com/rashed2155/covid19-report/tree/master",
+    category: ["react.js", "node.js"],
+  },
+  {
+    name: "Wee Shop",
+    image: weshop,
+    deployed_url: "https://weeshop.netlify.app/",
+    github_url: "https://github.com/rashed2155/we-shop",
     category: ["react.js", "node.js"],
   },
 ];
