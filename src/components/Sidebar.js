@@ -1,5 +1,5 @@
 import React from "react";
-import rashed2 from "../assets/images/rashed2.png";
+import rashed from "../assets/images/rashed-abir.jpg";
 import facebook from "../assets/icons/facebook.png";
 import linkedin from "../assets/icons/linkedin.png";
 import twitter from "../assets/icons/twitter.png";
@@ -44,18 +44,18 @@ function Sidebar() {
       initial="hidden"
       animate="visible"
     >
-      <img src={rashed2} alt="Abu Rashed Khan" className="sidebar_image" />
+      <img src={rashed} alt="Rashed Abir" className="sidebar_image" />
       <div className="sidebar_name">Abu Rashed Khan</div>
       <div className="sidebar_item sidebar_title">Web Developer</div>
       <a href={aburashedkhan} download="aburashedkhan.pdf">
         <div className="sidebar_item sidebar_resume">
-          <img className="sidebar_icon" src={tie} alt="abu rashed khan" />
+          <img className="sidebar_icon" src={tie} alt="Rashed Abir" />
           Download Resume
         </div>
       </a>
       <figure className="sidebar_social-icons">
         <a
-          href="https://www.facebook.com/i.m.rashed.khan/"
+          href="https://www.facebook.com/dev.rashedabir/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -66,7 +66,7 @@ function Sidebar() {
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/abu-rashed-khan/"
+          href="https://www.linkedin.com/in/rashedabir/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -78,7 +78,7 @@ function Sidebar() {
           />
         </a>
         <a
-          href="https://twitter.com/Abir97bdKhan"
+          href="https://twitter.com/rashedabir_"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -89,7 +89,7 @@ function Sidebar() {
           />
         </a>
         <a
-          href="https://www.instagram.com/i_am_rashed_khan/?hl=en"
+          href="https://www.instagram.com/rashedabir_/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -103,7 +103,7 @@ function Sidebar() {
       <div className="sidebar_contact">
         <div className="sidebar_item sidebar_github">
           <a
-            href="https://github.com/rashed2155"
+            href="https://github.com/rashedabir"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -121,7 +121,7 @@ function Sidebar() {
           Dhaka, Bangladesh
         </div>
         <div className="sidebar_item" onClick={handleEmailMe}>
-          <img alt="email" className="sidebar_icon" src={email} />
+          <img alt="Rashed Abir" className="sidebar_icon" src={email} />
           Abir97bd@gmail.com
         </div>
         <div
@@ -129,7 +129,7 @@ function Sidebar() {
           onClick={handleCallMe}
           style={{ cursor: "pointer" }}
         >
-          <img alt="phone" className="sidebar_icon" src={phone} />
+          <img alt="Rashed Abir" className="sidebar_icon" src={phone} />
           +880 162 9341869
         </div>
       </div>
