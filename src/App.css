@@ -43,7 +43,7 @@ a:hover{
   background-color: black;
   border-radius: 20px;
   padding: 25px 15px;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px rgb(26, 25, 25);
 }
 
 .sidebar{
@@ -51,7 +51,7 @@ a:hover{
   height: 100%;
   border-radius: 20px;
   padding: 25px 15px;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px  rgb(26, 25, 25);
   text-align: center;
   color: white;
 }
@@ -351,4 +351,13 @@ a:hover{
   .projectCard_wrapper{
     padding-bottom: 60px;
   }
+}
+
+
+
+
+
+
+.details{
+  background-color: #fff;
 }

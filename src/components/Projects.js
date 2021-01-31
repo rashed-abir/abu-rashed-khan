@@ -72,7 +72,7 @@ function Projects() {
       </div>
       <div className="row">
         {projects.map((project) => (
-          <ProjectCard key={project.name} project={project} />
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </motion.div>
