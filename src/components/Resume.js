@@ -84,7 +84,7 @@ function Resume() {
               key={data.heading}
               style={{
                 display: "flex",
-                border: "1px solid #dbdddf",
+                border: "1px solid #181818",
                 padding: "5px",
                 marginBottom: "-10px",
               }}
@@ -101,11 +101,12 @@ function Resume() {
                 rel="noopener noreferrer"
                 style={{
                   fontSize: "13px",
-                  borderLeft: "1px solid #dbdddf",
+                  borderLeft: "1px solid #181818",
                   paddingLeft: "5px",
                   transition: "all 0.2s",
                   alignItems: "center",
                   margin: "auto",
+                  color: "grey"
                 }}
               >
                 (verify)

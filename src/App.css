@@ -1,6 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif;
-  background-image: linear-gradient(#13547a, #80d0c7);
+  background-color: #111111;
   background-attachment: fixed;
   color: #354358;
 
@@ -40,19 +40,20 @@ a:hover{
 }
 
 .app_main_content{
-  background-color: #fff;
+  background-color: black;
   border-radius: 20px;
   padding: 25px 15px;
   box-shadow: 0 0 10px gray;
 }
 
 .sidebar{
-  background-color: #fff;
+  background-color: black;
   height: 100%;
   border-radius: 20px;
   padding: 25px 15px;
   box-shadow: 0 0 10px gray;
   text-align: center;
+  color: white;
 }
 
 .sidebar_image{
@@ -61,7 +62,7 @@ a:hover{
   object-fit: contain;
   border: 3px solid #13547a;
   border-radius: 50%;
-  background-color: #e8eaec;
+  background-color: #181818;
   transition: transform 0.2s linear;
 }
 .sidebar_image:hover{
@@ -96,7 +97,7 @@ a:hover{
   font-weight: 500;
 }
 .sidebar_title{
-  background-color: #f1f1f1;
+  background-color: #181818;
   border-radius: 30px;
   font-weight: 600;
   text-align: center;
@@ -113,7 +114,7 @@ a:hover{
 }
 
 .sidebar_contact{
-  background-color: #dbdddf;
+  background-color: #181818;
   padding: 2px 0;
   margin: 20px -15px;
 }
@@ -130,14 +131,25 @@ a:hover{
 .sidebar_email:hover{
   transform: scale(1.1);
 }
+.sidebar_resume{
+  color: white;
+}
+.sidebar_github a{
+  color: white;
+}
+.sidebar_github a:hover{
+  color: #13547a;
+}
 
-.sidebar_resume:hover,
-.sidebar_github:hover{
+.sidebar_resume:hover{
   background-color: #f1f1f1;
-  color: #000;
+  color: #13547a;
 }
 
 /* navbar  */
+.navbar{
+  background-color: black;
+}
 
 .navbar_items{
   display: flex;
@@ -146,14 +158,14 @@ a:hover{
 .navbar_active{
   font-size: 2rem;
   font-weight: 700;
-  color: #354358;
+  color: white;
   border-bottom: 4px solid #13547a;
 }
 
 .navbar_item{
   margin-right: 20px;
   text-decoration: none;
-  color: #354358;
+  color: white;
   font-size: 1.3rem;
   cursor: pointer;
 }
@@ -170,6 +182,8 @@ a:hover{
 .about{
   height: 80vh;
   overflow-y: auto;
+  background-color: black;
+  color: rgb(228, 228, 228);
 }
 
 .about_intro{
@@ -180,17 +194,17 @@ a:hover{
 }
 
 .about_container{
-  background-color: #dbdddf;
+  background-color: #181818;
   padding: 30px 20px;
 }
 
 .about_heading{
   font-size: 25px;
   font-weight: 700;
-  color: #354358;
+  color: rgb(218, 218, 218);
 }
 .skill-card{
-  background-color: #fff;
+  background-color: black;
   margin: 10px;
   padding: 10px;
   display: flex;
@@ -208,7 +222,7 @@ a:hover{
 }
 .skill-card_content{
   font-size: 0.9rem;
-  color: #6e7e91;
+  color: #c9c9c9;
   text-transform: capitalize;
 }
 
@@ -218,6 +232,7 @@ a:hover{
   height: 80vh;
   padding-top: 20px;
   overflow-y: auto;
+  color: white;
 }
 
 .resume-language_heading, 
@@ -225,12 +240,13 @@ a:hover{
   margin-left: 10px;
   font-size: 1.7rem;
   font-weight: 700;
-  color: #354358;
+  color: rgb(224, 220, 220);
   margin-top: 10px;
 }
 
 .resume-card_body{
   margin-top: 10px;
+  color: rgb(196, 196, 196);
 }
 
 .resume-card_title{
@@ -248,7 +264,7 @@ a:hover{
 
 .bar {
   width: 90%;
-  background-color: #f1f2f3;
+  background-color: #181818;
   border-radius: 20px;
   margin-bottom: 12px;
 
@@ -307,11 +323,19 @@ a:hover{
   align-items: center;
   justify-content: center;
   padding-bottom: 10px;
+  color: white;
+}
+.projectCard_title a{
+  color: rgb(207, 205, 205);
+}
+.projectCard_title a:hover{
+  color: #13547a;
 }
 
 .projects_navbar {
   display: flex;
   margin-bottom: 5px;
+  color: #fff;
 }
 
 .projects_navbar>div {
