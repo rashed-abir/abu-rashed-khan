@@ -4,6 +4,8 @@ import party from "../assets/projects_images/party.png";
 import movieapp from "../assets/projects_images/movieapp.png";
 import covid from "../assets/projects_images/covid.png";
 import weshop from "../assets/projects_images/weshop.png";
+import androidCal from "../assets/projects_images/androidCal.png";
+import quiz from "../assets/projects_images/quiz.png";
 
 const Data = [
   {
@@ -53,6 +55,22 @@ const Data = [
     deployed_url: "https://weeshop.netlify.app/",
     github_url: "https://github.com/rashedabir/we-shop",
     category: ["react.js", "node.js"],
+  },
+  {
+    id: 7,
+    name: "Android Calculator",
+    image: androidCal,
+    deployed_url: "https://github.com/rashedabir/android-calculator",
+    github_url: "https://github.com/rashedabir/android-calculator",
+    category: ["java"],
+  },
+  {
+    id: 8,
+    name: "Quiz Application",
+    image: quiz,
+    deployed_url: "https://github.com/rashedabir/quiz-app",
+    github_url: "https://github.com/rashedabir/quiz-app",
+    category: ["java"],
   },
 ];
 
