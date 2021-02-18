@@ -6,6 +6,7 @@ import covid from "../assets/projects_images/covid.png";
 import weshop from "../assets/projects_images/weshop.png";
 import androidCal from "../assets/projects_images/androidCal.png";
 import quiz from "../assets/projects_images/quiz.png";
+import news from "../assets/projects_images/news-app.png";
 
 const Data = [
   {
@@ -71,6 +72,14 @@ const Data = [
     deployed_url: "https://github.com/rashedabir/quiz-app",
     github_url: "https://github.com/rashedabir/quiz-app",
     category: ["java"],
+  },
+  {
+    id: 9,
+    name: "News Application",
+    image: news,
+    deployed_url: "https://news-app360.herokuapp.com/",
+    github_url: "https://github.com/rashedabir/News-App",
+    category: ["react.js", "node.js"],
   },
 ];
 
