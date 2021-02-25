@@ -11,6 +11,7 @@ import email from "../assets/icons/email.png";
 import phone from "../assets/icons/phone.png";
 import instagram from "../assets/icons/instagram.png";
 import { motion } from "framer-motion";
+import Typed from "react-typed";
 
 function Sidebar() {
   const handleEmailMe = () => {
@@ -46,7 +47,19 @@ function Sidebar() {
     >
       <img src={rashed} alt="Rashed Abir" className="sidebar_image" />
       <div className="sidebar_name">Abu Rashed Khan</div>
-      <div className="sidebar_item sidebar_title">Web Developer</div>
+      <div className="sidebar_item sidebar_title">
+        <Typed
+          strings={[
+            "Web Designer",
+            "Web Developer",
+            "React Developer",
+            "JavaScript Developer",
+          ]}
+          typeSpeed={60}
+          backSpeed={40}
+          loop
+        />
+      </div>
       <a href={aburashedkhan} download="aburashedkhan.pdf">
         <div className="sidebar_item sidebar_resume">
           <img className="sidebar_icon" src={tie} alt="Rashed Abir" />
