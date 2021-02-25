@@ -7,10 +7,19 @@ import weshop from "../assets/projects_images/weshop.png";
 import androidCal from "../assets/projects_images/androidCal.png";
 import quiz from "../assets/projects_images/quiz.png";
 import news from "../assets/projects_images/news-app.png";
+import ainews from "../assets/projects_images/ai-news.png";
 
 const Data = [
   {
     id: 1,
+    name: "AI News & Weather App",
+    image: ainews,
+    deployed_url: "https://news360.netlify.app/",
+    github_url: "https://github.com/rashedabir/ai-news-app",
+    category: ["react.js", "alan"],
+  },
+  {
+    id: 10,
     name: "Library Management System",
     image: library,
     deployed_url: "https://github.com/rashed2155/Library_management_oracle",
