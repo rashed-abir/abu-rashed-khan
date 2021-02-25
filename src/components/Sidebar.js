@@ -50,6 +50,7 @@ function Sidebar() {
       <div className="sidebar_item sidebar_title">
         <Typed
           strings={[
+            "Computer Engineer",
             "Web Designer",
             "Web Developer",
             "React Developer",
