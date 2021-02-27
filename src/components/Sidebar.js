@@ -1,5 +1,5 @@
 import React from "react";
-import rashed from "../assets/images/rashed-abir.jpg";
+import rashed from "../assets/images/rashed abir.JPEG";
 import facebook from "../assets/icons/facebook.png";
 import linkedin from "../assets/icons/linkedin.png";
 import twitter from "../assets/icons/twitter.png";
