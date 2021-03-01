@@ -69,7 +69,7 @@ function Sidebar() {
       </a>
       <figure className="sidebar_social-icons">
         <a
-          href="https://www.facebook.com/dev.rashedabir/"
+          href="https://www.facebook.com/abu.rashed.abir/"
           target="_blank"
           rel="noopener noreferrer"
         >

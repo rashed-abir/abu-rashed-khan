@@ -6,17 +6,23 @@ import html from "../assets/icons/html.svg";
 import sql from "../assets/icons/sql.png";
 import c from "../assets/icons/c.png";
 import redux from "../assets/icons/redux.svg";
+import python from "../assets/icons/python.svg";
 
 const Languages = [
   {
+    icon: python,
+    name: "Python",
+    level: "55",
+  },
+  {
     icon: java,
-    name: "Java Enterprise",
-    level: "80",
+    name: "Java",
+    level: "70",
   },
   {
     icon: js,
-    name: "Java Script",
-    level: "60",
+    name: "JavaScript",
+    level: "75",
   },
   {
     icon: c,
@@ -26,17 +32,17 @@ const Languages = [
   {
     icon: react,
     name: "React",
-    level: "55",
+    level: "60",
   },
   {
     icon: node,
     name: "Node js",
-    level: "40",
+    level: "50",
   },
   {
     icon: html,
     name: "HTML & CSS",
-    level: "70",
+    level: "75",
   },
   {
     icon: sql,
