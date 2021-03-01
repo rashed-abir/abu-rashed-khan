@@ -288,7 +288,7 @@ a:hover {
   font-size: 0.9rem;
   transform-origin: left;
   transform: scaleX(0);
-  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1.25s cubic-bezier(1, 1, 0.5, 1) forwards;
 }
 @keyframes animate {
   100% {
