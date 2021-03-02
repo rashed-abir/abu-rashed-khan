@@ -57,7 +57,7 @@ const Languages = [
   {
     icon: redux,
     name: "React-Redux",
-    level: "55",
+    level: "60",
   },
 ];
 

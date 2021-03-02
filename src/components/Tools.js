@@ -34,7 +34,7 @@ const Tools = [
   {
     icon: mongo,
     name: "MongoDB",
-    level: "40",
+    level: "55",
   },
 ];
 
