@@ -8,6 +8,7 @@ import androidCal from "../assets/projects_images/androidCal.png";
 import quiz from "../assets/projects_images/quiz.png";
 import news from "../assets/projects_images/news-app.png";
 import ainews from "../assets/projects_images/ai-news.png";
+import bd from "../assets/projects_images/bdknoledge.png";
 
 const Data = [
   {
@@ -19,7 +20,7 @@ const Data = [
     category: ["react.js", "alan"],
   },
   {
-    id: 10,
+    id: 2,
     name: "Library Management System",
     image: library,
     deployed_url: "https://github.com/rashed2155/Library_management_oracle",
@@ -27,7 +28,7 @@ const Data = [
     category: ["java", "oracle"],
   },
   {
-    id: 2,
+    id: 3,
     name: "Party Management System",
     image: party,
     deployed_url: "https://party-managed.herokuapp.com/",
@@ -35,7 +36,7 @@ const Data = [
     category: ["react.js", "mongodb", "express.js", "node.js"],
   },
   {
-    id: 3,
+    id: 4,
     name: "CGPA Calculator",
     image: cgpa,
     deployed_url: "https://rashedabir.github.io/cgpa_calculator/",
@@ -43,7 +44,7 @@ const Data = [
     category: ["html", "css", "javascript"],
   },
   {
-    id: 4,
+    id: 5,
     name: "Movie Flex",
     image: movieapp,
     deployed_url: "https://rashedabir.github.io/movie-flex/",
@@ -51,7 +52,7 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 5,
+    id: 6,
     name: "Corona Virus Report",
     image: covid,
     deployed_url: "https://rashedabir.github.io/covid19-report/",
@@ -59,7 +60,7 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 6,
+    id: 7,
     name: "Wee Shop",
     image: weshop,
     deployed_url: "https://weeshop.netlify.app/",
@@ -67,15 +68,15 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 7,
-    name: "Android Calculator",
+    id: 8,
+    name: "Android Calculator App",
     image: androidCal,
     deployed_url: "https://github.com/rashedabir/android-calculator",
     github_url: "https://github.com/rashedabir/android-calculator",
     category: ["java"],
   },
   {
-    id: 8,
+    id: 9,
     name: "Quiz Application",
     image: quiz,
     deployed_url: "https://github.com/rashedabir/quiz-app",
@@ -83,12 +84,20 @@ const Data = [
     category: ["java"],
   },
   {
-    id: 9,
+    id: 10,
     name: "News Application",
     image: news,
     deployed_url: "https://news-app360.herokuapp.com/",
     github_url: "https://github.com/rashedabir/News-App",
     category: ["react.js", "node.js"],
+  },
+  {
+    id: 11,
+    name: "BD Knowledge App",
+    image: bd,
+    deployed_url: "https://github.com/rashedabir/BD-Knowledge",
+    github_url: "https://github.com/rashedabir/BD-Knowledge",
+    category: ["java"],
   },
 ];
 
