@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 function Projects() {
   const [projects, setProjects] = useState(Data);
+  const [search, setSearch] = useState("");
 
   const handleFilterCategory = (name) => {
     const filterData = Data.filter((project) =>
@@ -12,6 +13,10 @@ function Projects() {
     );
     setProjects(filterData);
   };
+
+  const handleSearch = projects.filter((project) => {
+    return project.name.toLowerCase().includes(search.toLowerCase());
+  });
 
   const navbar_varient = {
     hidden: {
@@ -25,11 +30,11 @@ function Projects() {
       },
     },
     exit: {
-      opacity:0,
+      opacity: 0,
       transition: {
-        ease: 'easeInOut',
-      }
-    } 
+        ease: "easeInOut",
+      },
+    },
   };
 
   return (
@@ -38,42 +43,53 @@ function Projects() {
       variants={navbar_varient}
       initial="hidden"
       animate="visible"
-      exit='exit'
+      exit="exit"
     >
       <div className="projects_navbar">
-        <div
-          onClick={() => {
-            setProjects(Data);
-          }}
-        >
-          All
+        <div className="projects_navbar-item">
+          <div
+            onClick={() => {
+              setProjects(Data);
+            }}
+          >
+            All
+          </div>
+          <div
+            onClick={() => {
+              handleFilterCategory("react.js");
+            }}
+          >
+            React
+          </div>
+          <div
+            onClick={() => {
+              handleFilterCategory("java");
+            }}
+          >
+            Java
+          </div>
+          <div
+            onClick={() => {
+              handleFilterCategory("javascript");
+            }}
+          >
+            JavaScript
+          </div>
         </div>
-        <div
-          onClick={() => {
-            handleFilterCategory("react.js");
-          }}
-        >
-          React
-        </div>
-        <div
-          onClick={() => {
-            handleFilterCategory("java");
-          }}
-        >
-          Java
-        </div>
-        <div
-          onClick={() => {
-            handleFilterCategory("javascript");
-          }}
-        >
-          JavaScript
+        <div className="project-search">
+          <input
+            placeholder="Search Project"
+            type="text"
+            onChange={(e) => setSearch(e.target.value)}
+          />
         </div>
       </div>
       <div className="row">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+        {handleSearch.length
+          ? handleSearch.map((project) => (
+              <ProjectCard key={project.id} project={project} />
+            ))
+          : "Not Found"}
       </div>
     </motion.div>
   );
