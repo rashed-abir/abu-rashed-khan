@@ -377,3 +377,12 @@ a:hover {
     padding-bottom: 60px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .navbar_item {
+    font-size: 1.1rem;
+  }
+  .navbar_active {
+    font-size: 1.8rem;
+  }
+}
