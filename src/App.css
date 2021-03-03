@@ -375,7 +375,7 @@ a:hover {
   font-size: 2rem;
   cursor: pointer;
 }
-.not-found{
+.not-found {
   text-align: center;
   margin: 21% auto;
 }
@@ -395,7 +395,8 @@ a:hover {
 
 .projects_navbar-item {
   display: flex;
-  margin-bottom: 5px;
+  margin: 5px 0;
+  padding: 3px 7px;
   color: #fff;
 }
 
