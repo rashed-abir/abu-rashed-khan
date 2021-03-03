@@ -155,7 +155,7 @@ a:hover {
 }
 
 .navbar_active {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: white;
   border-bottom: 4px solid #13547a;
@@ -327,7 +327,7 @@ a:hover {
 .projectCard_image {
   width: 100%;
   height: 100%;
-  border-radius: 30px;
+  border-radius: 10px;
   border: 1px solid #13547a;
   transition: transform 0.3s linear;
 }
@@ -374,6 +374,7 @@ a:hover {
 .search {
   font-size: 2rem;
   cursor: pointer;
+  color: gray;
 }
 .not-found {
   text-align: center;
