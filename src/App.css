@@ -357,23 +357,40 @@ a:hover {
   color: #13547a;
 }
 
-.projects_navbar{
+.projects_navbar {
   display: flex;
   justify-content: space-between;
   margin: auto;
   flex-wrap: wrap;
 }
 
-.project-search input{
-  outline: none;
-  width: 100%;
-  font-size: 1rem;
-  border: 1px solid gray;
+.project-search {
+  display: flex;
+  border: 1px solid grey;
   border-radius: 0.5rem;
   padding: 3px 7px;
+  width: 300px;
+}
+.search {
+  font-size: 2rem;
+  cursor: pointer;
+}
+.not-found{
+  text-align: center;
+  margin: 21% auto;
+}
+
+.project-search input {
+  width: 100%;
+  font-size: 1rem;
   background: none;
   color: white;
+  border: none;
   z-index: 1;
+}
+.project-search input:focus {
+  outline: none;
+  border: none;
 }
 
 .projects_navbar-item {
@@ -413,9 +430,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  .project-search{
-    width: 100%;
-    margin: auto;
-    padding: 20px 10px;
+  .project-search {
+    width: 95%;
+    margin: 15px auto;
+    margin-top: 20px;
+    padding: 10px 10px;
   }
 }

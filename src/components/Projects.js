@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import Data from "./ProjectsData";
 import { motion } from "framer-motion";
+import { AiOutlineSearch } from "react-icons/ai";
 
 function Projects() {
   const [projects, setProjects] = useState(Data);
@@ -82,14 +83,17 @@ function Projects() {
             type="text"
             onChange={(e) => setSearch(e.target.value)}
           />
+          <AiOutlineSearch className="search" />
         </div>
       </div>
       <div className="row">
-        {handleSearch.length
-          ? handleSearch.map((project) => (
-              <ProjectCard key={project.id} project={project} />
-            ))
-          : "Not Found"}
+        {handleSearch.length ? (
+          handleSearch.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))
+        ) : (
+          <h4 className="not-found">" {search} " Not Found</h4>
+        )}
       </div>
     </motion.div>
   );
