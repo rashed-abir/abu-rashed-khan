@@ -3,7 +3,9 @@ import photo from "../assets/icons/photo.svg";
 import filmora from "../assets/icons/filmora.svg";
 import cam from "../assets/icons/cam.svg";
 import postman from "../assets/icons/postman.svg";
-import mongo from "../assets/icons/mongo.png";
+import mongo from "../assets/icons/mongo.svg";
+import office from "../assets/icons/office.svg";
+import power from "../assets/icons/power.svg";
 
 const Tools = [
   {
@@ -35,6 +37,16 @@ const Tools = [
     icon: mongo,
     name: "MongoDB",
     level: "55",
+  },
+  {
+    icon: office,
+    name: "Microsoft Office",
+    level: "75",
+  },
+  {
+    icon: power,
+    name: "Microsoft Power BI",
+    level: "60",
   },
 ];
 
