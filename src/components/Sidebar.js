@@ -117,7 +117,7 @@ function Sidebar() {
       <div className="sidebar_contact">
         <div className="sidebar_item sidebar_github">
           <a
-            href="https://github.com/rashedabir"
+            href="https://github.com/rashed-abir"
             target="_blank"
             rel="noopener noreferrer"
           >
