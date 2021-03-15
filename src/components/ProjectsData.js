@@ -87,8 +87,8 @@ const Data = [
     id: 10,
     name: "News Application",
     image: news,
-    deployed_url: "https://news-app360.herokuapp.com/",
-    github_url: "https://github.com/rashedabir/News-App",
+    deployed_url: "https://news360app.herokuapp.com/",
+    github_url: "https://github.com/rashed-abir/news_app",
     category: ["react.js", "node.js"],
   },
   {

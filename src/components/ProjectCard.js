@@ -31,11 +31,11 @@ function ProjectCard({ project: { name, image, deployed_url, github_url } }) {
       exit="exit"
     >
       <figure className="projectCard_wrapper">
-        <a href={deployed_url} target="_blank" rel="noreferrer">
+        <a title="See Deployed Site" href={deployed_url} target="_blank" rel="noreferrer">
           <img src={image} alt={name} className="projectCard_image" />
         </a>
         <div className="projectCard_title">
-          <a href={github_url} target="_blank" rel="noreferrer">
+          <a title="Github url" href={github_url} target="_blank" rel="noreferrer">
             <img src={github1} alt="github url" className="projectCard_icon" />
             {name}
           </a>

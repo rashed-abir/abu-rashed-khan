@@ -7,6 +7,8 @@ import sql from "../assets/icons/sql.png";
 import c from "../assets/icons/c.png";
 import redux from "../assets/icons/redux.svg";
 import python from "../assets/icons/python.svg";
+import materia from "../assets/icons/material.png";
+import bootstrap from "../assets/icons/bootstrap.png";
 
 const Languages = [
   {
@@ -40,6 +42,11 @@ const Languages = [
     level: "50",
   },
   {
+    icon: materia,
+    name: "Material UI",
+    level: "60",
+  },
+  {
     icon: html,
     name: "HTML & CSS",
     level: "75",
@@ -50,9 +57,14 @@ const Languages = [
     level: "85",
   },
   {
+    icon: bootstrap,
+    name: "Bootstrap 4",
+    level: "65",
+  },
+  {
     icon: js,
     name: "Express js",
-    level: "65",
+    level: "62",
   },
   {
     icon: redux,
