@@ -9,6 +9,7 @@ import quiz from "../assets/projects_images/quiz.png";
 import news from "../assets/projects_images/news-app.png";
 import ainews from "../assets/projects_images/ai-news.png";
 import bd from "../assets/projects_images/bdknoledge.png";
+import gitSearch from "../assets/projects_images/git-search.jpg";
 
 const Data = [
   {
@@ -29,6 +30,14 @@ const Data = [
   },
   {
     id: 3,
+    name: "Github User Founder",
+    image: gitSearch,
+    deployed_url: "https://git-founder.herokuapp.com/",
+    github_url: "https://github.com/rashed-abir/git-search/tree/master",
+    category: ["react.js"],
+  },
+  {
+    id: 4,
     name: "Party Management System",
     image: party,
     deployed_url: "https://party-managed.herokuapp.com/",
@@ -36,7 +45,7 @@ const Data = [
     category: ["react.js", "mongodb", "express.js", "node.js"],
   },
   {
-    id: 4,
+    id: 5,
     name: "CGPA Calculator",
     image: cgpa,
     deployed_url: "https://rashed-abir.github.io/cgpa_calculator/",
@@ -44,7 +53,7 @@ const Data = [
     category: ["html", "css", "javascript"],
   },
   {
-    id: 5,
+    id: 6,
     name: "Movie Flex",
     image: movieapp,
     deployed_url: "https://rashed-abir.github.io/movie-flex/",
@@ -52,7 +61,7 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 6,
+    id: 7,
     name: "Corona Virus Report",
     image: covid,
     deployed_url: "https://rashed-abir.github.io/covid19-report/",
@@ -60,7 +69,7 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 7,
+    id: 8,
     name: "Wee Shop",
     image: weshop,
     deployed_url: "https://weeshop.netlify.app/",
@@ -68,7 +77,7 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 8,
+    id: 9,
     name: "Android Calculator App",
     image: androidCal,
     deployed_url: "https://github.com/rashed-abir/android-calculator",
@@ -76,7 +85,7 @@ const Data = [
     category: ["java"],
   },
   {
-    id: 9,
+    id: 10,
     name: "Quiz Application",
     image: quiz,
     deployed_url: "https://github.com/rashed-abir/quiz-app",
@@ -84,7 +93,7 @@ const Data = [
     category: ["java"],
   },
   {
-    id: 10,
+    id: 11,
     name: "News Application",
     image: news,
     deployed_url: "https://news360app.herokuapp.com/",
@@ -92,7 +101,7 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 11,
+    id: 12,
     name: "BD Knowledge App",
     image: bd,
     deployed_url: "https://github.com/rashed-abir/BD-Knowledge",
