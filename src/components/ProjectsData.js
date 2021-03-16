@@ -9,7 +9,7 @@ import quiz from "../assets/projects_images/quiz.png";
 import news from "../assets/projects_images/news-app.png";
 import ainews from "../assets/projects_images/ai-news.png";
 import bd from "../assets/projects_images/bdknoledge.png";
-import gitSearch from "../assets/projects_images/git-search.jpg";
+import gitSearch from "../assets/projects_images/git-search.png";
 
 const Data = [
   {
