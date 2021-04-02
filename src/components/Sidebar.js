@@ -45,7 +45,12 @@ function Sidebar() {
       initial="hidden"
       animate="visible"
     >
-      <img title="Rashed Abir" src={rashed} alt="Rashed Abir" className="sidebar_image" />
+      <img
+        title="Rashed Abir"
+        src={rashed}
+        alt="Rashed Abir"
+        className="sidebar_image"
+      />
       <div className="sidebar_name">Abu Rashed Khan</div>
       <div className="sidebar_item sidebar_title">
         <Typed
@@ -139,7 +144,7 @@ function Sidebar() {
           <img alt="Location" className="sidebar_icon" src={pin} />
           Dhaka, Bangladesh
         </div>
-        <div className="sidebar_item" onClick={handleEmailMe} title="Email Me">
+        <div className="sidebar_item" onClick={handleEmailMe} title="Click">
           <img alt="Rashed Abir" className="sidebar_icon" src={email} />
           Abir97bd@gmail.com
         </div>
@@ -147,15 +152,20 @@ function Sidebar() {
           className="sidebar_item phone"
           onClick={handleCallMe}
           style={{ cursor: "pointer" }}
-          title="Call Me"
+          title="Click"
         >
           <img alt="Rashed Abir" className="sidebar_icon" src={phone} />
           +880 162 9341869
         </div>
       </div>
-      <div className="sidebar_item sidebar_email" onClick={handleEmailMe}>
-        Email me
-      </div>
+      <a
+        href="https://www.fiverr.com/rashedkhan126"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "white" }}
+      >
+        <div className="sidebar_item sidebar_email">Hire me</div>
+      </a>
     </motion.div>
   );
 }
