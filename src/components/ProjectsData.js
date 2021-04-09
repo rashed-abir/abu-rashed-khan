@@ -114,7 +114,7 @@ const Data = [
     name: "Party Managed App",
     image: partymanaged,
     deployed_url: "https://github.com/rashedabir/party_management_system",
-    github_url: "https://github.com/rashedabir/party_management_system",
+    github_url: "https://github.com/rashedabir/party_managed_APP",
     category: ["java"],
   },
 ];
