@@ -42,7 +42,7 @@ const Data = [
     id: 5,
     name: "Github User Founder",
     image: gitSearch,
-    deployed_url: "https://git-founder.herokuapp.com/",
+    deployed_url: "https://git-searcher-2155.web.app/git-search",
     github_url: "https://github.com/rashedabir/git-search/tree/master",
     category: ["react.js"],
   },
