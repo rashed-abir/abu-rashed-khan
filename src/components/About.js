@@ -18,7 +18,7 @@ function About() {
       icon: backend,
       title: "Backend Development",
       about:
-        "i can Handle database, server, API using ExpressJS and MySql/MongoDB.",
+        "i can Handle database, server, API using NodeJS, ExpressJS and MySql/MongoDB.",
     },
     {
       icon: api,
@@ -27,9 +27,9 @@ function About() {
     },
     {
       icon: javag,
-      title: "Java GUI Development",
+      title: "Java Development",
       about:
-        "I can built java GUI application using Neatbeans and Oracle/MySql.",
+        "I can built java application using java and Oracle, MySql or SQLite database.",
     },
   ];
 

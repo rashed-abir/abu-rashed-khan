@@ -5,7 +5,6 @@ import node from "../assets/icons/node.svg";
 import html from "../assets/icons/html.svg";
 import sql from "../assets/icons/sql.png";
 import c from "../assets/icons/c.png";
-import redux from "../assets/icons/redux.svg";
 import python from "../assets/icons/python.svg";
 import materia from "../assets/icons/material.png";
 import bootstrap from "../assets/icons/bootstrap.png";
@@ -65,11 +64,6 @@ const Languages = [
     icon: js,
     name: "Express js",
     level: "62",
-  },
-  {
-    icon: redux,
-    name: "React-Redux",
-    level: "60",
   },
 ];
 

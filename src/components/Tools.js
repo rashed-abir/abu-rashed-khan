@@ -6,6 +6,8 @@ import postman from "../assets/icons/postman.svg";
 import mongo from "../assets/icons/mongo.svg";
 import office from "../assets/icons/office.svg";
 import power from "../assets/icons/power.svg";
+import figma from "../assets/icons/figma.svg";
+
 
 const Tools = [
   {
@@ -47,6 +49,11 @@ const Tools = [
     icon: power,
     name: "Microsoft Power BI",
     level: "60",
+  },
+  {
+    icon: figma,
+    name: "Figma",
+    level: "40",
   },
 ];
 
