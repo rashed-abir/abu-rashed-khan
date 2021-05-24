@@ -12,6 +12,8 @@ import bd from "../assets/projects_images/bdknoledge.png";
 import gitSearch from "../assets/projects_images/git-search.png";
 import partymanaged from "../assets/projects_images/partymanaged.png";
 import mern_ecommerce from "../assets/projects_images/mern_ecommerce.png";
+import expense from "../assets/projects_images/expense.png";
+
 
 const Data = [
   {
@@ -32,11 +34,11 @@ const Data = [
   },
   {
     id: 3,
-    name: "Library Management System",
-    image: library,
-    deployed_url: "https://github.com/rashedabir/Library_management_oracle",
-    github_url: "https://github.com/rashedabir/Library_management_oracle",
-    category: ["java", "oracle"],
+    name: "Expense Tracker",
+    image: expense,
+    deployed_url: "https://expense-trackerbd.herokuapp.com/",
+    github_url: "https://github.com/rashedabir/expense_tracker",
+    category: ["react.js", "mongodb", "express.js", "node.js"],
   },
   {
     id: 5,
@@ -125,6 +127,14 @@ const Data = [
     deployed_url: "https://github.com/rashedabir/party_managed_APP",
     github_url: "https://github.com/rashedabir/party_managed_APP",
     category: ["java"],
+  },
+  {
+    id: 16,
+    name: "Library Management System",
+    image: library,
+    deployed_url: "https://github.com/rashedabir/Library_management_oracle",
+    github_url: "https://github.com/rashedabir/Library_management_oracle",
+    category: ["java", "oracle"],
   },
 ];
 
