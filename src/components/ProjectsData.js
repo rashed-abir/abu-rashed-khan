@@ -14,7 +14,6 @@ import partymanaged from "../assets/projects_images/partymanaged.png";
 import mern_ecommerce from "../assets/projects_images/mern_ecommerce.png";
 import expense from "../assets/projects_images/expense.png";
 
-
 const Data = [
   {
     id: 1,
@@ -68,8 +67,8 @@ const Data = [
     id: 8,
     name: "Movie Flex",
     image: movieapp,
-    deployed_url: "https://rashedabir.github.io/movie-flex/",
-    github_url: "https://github.com/rashedabir/movie-flex/tree/master",
+    deployed_url: "https://movie-flex-55.web.app/",
+    github_url: "https://github.com/rashedabir/movie-flex/tree/main",
     category: ["react.js", "node.js"],
   },
   {
