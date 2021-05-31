@@ -51,7 +51,9 @@ function Sidebar() {
         alt="Rashed Abir"
         className="sidebar_image"
       />
-      <div className="sidebar_name">Abu Rashed Khan</div>
+      <div className="sidebar_name" title="Rashed Abir">
+        Abu Rashed Khan
+      </div>
       <div className="sidebar_item sidebar_title">
         <Typed
           strings={[
@@ -60,6 +62,7 @@ function Sidebar() {
             "Web Developer",
             "React Developer",
             "JavaScript Developer",
+            "Full Stack Developer",
           ]}
           typeSpeed={60}
           backSpeed={40}

@@ -106,7 +106,7 @@ function Resume() {
                   transition: "all 0.2s",
                   alignItems: "center",
                   margin: "auto",
-                  color: "grey"
+                  color: "grey",
                 }}
               >
                 (verify)

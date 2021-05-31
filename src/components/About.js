@@ -61,16 +61,15 @@ function About() {
       exit="exit"
     >
       <h6 className="about_intro">
-        I am currently pursuing B.SC(Final Year) in Computer Science Engineering
+        I'm currently pursuing B.SC(Final Year) in Computer Science Engineering
         from Daffodil International University. I consider myself who is
         persistent, a quick learner and loves problem solving by using simple
-        and scalable solutions.
+        and scalable solutions. In my everyday life, I try to love reading a
+        book, write different things, helping people, and coding as well. I also
+        think about different sorts of people. That basically inspires me as a
+        different aspect.
       </h6>
-      <h6 className="about_intro" style={{ marginTop: "-40px" }}>
-        In my everyday life, I try to love reading a book, write different
-        things, helping people, and coding as well. I also think about different
-        sorts of people. That basically inspires me as a different aspect.
-      </h6>
+
       <div className="container about_container">
         <h6 className="about_heading">What I offer</h6>
         <div className="row">

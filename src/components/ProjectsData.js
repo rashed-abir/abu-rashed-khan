@@ -4,11 +4,8 @@ import party from "../assets/projects_images/party.png";
 import movieapp from "../assets/projects_images/movieapp.png";
 import covid from "../assets/projects_images/covid.png";
 import weshop from "../assets/projects_images/weshop.png";
-import androidCal from "../assets/projects_images/androidCal.png";
-import quiz from "../assets/projects_images/quiz.png";
 import news from "../assets/projects_images/news-app.png";
 import ainews from "../assets/projects_images/ai-news.png";
-import bd from "../assets/projects_images/bdknoledge.png";
 import gitSearch from "../assets/projects_images/git-search.png";
 import partymanaged from "../assets/projects_images/partymanaged.png";
 import mern_ecommerce from "../assets/projects_images/mern_ecommerce.png";
@@ -88,36 +85,12 @@ const Data = [
     category: ["react.js", "node.js"],
   },
   {
-    id: 11,
-    name: "Android Calculator App",
-    image: androidCal,
-    deployed_url: "https://github.com/rashedabir/android-calculator",
-    github_url: "https://github.com/rashedabir/android-calculator",
-    category: ["java"],
-  },
-  {
-    id: 12,
-    name: "Quiz Application",
-    image: quiz,
-    deployed_url: "https://github.com/rashedabir/quiz-app",
-    github_url: "https://github.com/rashedabir/quiz-app",
-    category: ["java"],
-  },
-  {
     id: 13,
     name: "News Application",
     image: news,
     deployed_url: "https://news360app.herokuapp.com/",
     github_url: "https://github.com/rashedabir/news_app",
     category: ["react.js", "node.js"],
-  },
-  {
-    id: 14,
-    name: "BD Knowledge App",
-    image: bd,
-    deployed_url: "https://github.com/rashedabir/BD-Knowledge",
-    github_url: "https://github.com/rashedabir/BD-Knowledge",
-    category: ["java"],
   },
   {
     id: 15,

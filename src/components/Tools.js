@@ -18,7 +18,7 @@ const Tools = [
   {
     icon: cam,
     name: "Camtacia",
-    level: "90",
+    level: "85",
   },
   {
     icon: filmora,

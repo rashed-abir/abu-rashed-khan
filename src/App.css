@@ -94,6 +94,7 @@ a:hover {
   font-size: 1rem;
   border-radius: 30px;
   font-weight: 500;
+  align-items: center;
 }
 .sidebar_title {
   background-color: #181818;
@@ -369,7 +370,7 @@ a:hover {
   border: 1px solid grey;
   border-radius: 0.5rem;
   padding: 3px 7px;
-  width: 300px;
+  width: 280px;
 }
 .search {
   font-size: 2rem;

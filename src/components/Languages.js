@@ -1,6 +1,7 @@
 import java from "../assets/icons/java.svg";
 import js from "../assets/icons/js.svg";
 import react from "../assets/icons/react.svg";
+import redux from "../assets/icons/redux.svg";
 import node from "../assets/icons/node.svg";
 import html from "../assets/icons/html.svg";
 import sql from "../assets/icons/sql.png";
@@ -32,12 +33,12 @@ const Languages = [
   },
   {
     icon: react,
-    name: "React",
-    level: "60",
+    name: "React JS",
+    level: "75",
   },
   {
     icon: node,
-    name: "Node js",
+    name: "Node JS",
     level: "50",
   },
   {
@@ -53,17 +54,22 @@ const Languages = [
   {
     icon: sql,
     name: "SQL",
-    level: "85",
+    level: "65",
   },
   {
     icon: bootstrap,
     name: "Bootstrap 4",
-    level: "65",
+    level: "60",
+  },
+  {
+    icon: redux,
+    name: "React-Redux",
+    level: "62",
   },
   {
     icon: js,
-    name: "Express js",
-    level: "62",
+    name: "Express JS",
+    level: "72",
   },
 ];
 
