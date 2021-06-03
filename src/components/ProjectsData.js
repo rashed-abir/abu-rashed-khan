@@ -10,6 +10,8 @@ import gitSearch from "../assets/projects_images/git-search.png";
 import partymanaged from "../assets/projects_images/partymanaged.png";
 import mern_ecommerce from "../assets/projects_images/mern_ecommerce.png";
 import expense from "../assets/projects_images/expense.png";
+import food from "../assets/projects_images/food.png";
+
 
 const Data = [
   {
@@ -33,6 +35,14 @@ const Data = [
     name: "Expense Tracker",
     image: expense,
     deployed_url: "https://expense-trackerbd.herokuapp.com/",
+    github_url: "https://github.com/rashedabir/food-recipe-search",
+    category: ["react.js"],
+  },
+  {
+    id: 4,
+    name: "Food Recipe Search",
+    image: food,
+    deployed_url: "https://find-recipe55.web.app/",
     github_url: "https://github.com/rashedabir/expense_tracker",
     category: ["react.js", "mongodb", "express.js", "node.js"],
   },
