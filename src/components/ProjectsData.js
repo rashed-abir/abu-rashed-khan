@@ -11,6 +11,7 @@ import partymanaged from "../assets/projects_images/partymanaged.png";
 import mern_ecommerce from "../assets/projects_images/mern_ecommerce.png";
 import expense from "../assets/projects_images/expense.png";
 import food from "../assets/projects_images/food.png";
+import power from "../assets/projects_images/power.png";
 
 const Data = [
   {
@@ -92,6 +93,14 @@ const Data = [
     deployed_url: "https://weeshop.netlify.app/",
     github_url: "https://github.com/rashedabir/we-shop",
     category: ["react.js", "node.js"],
+  },
+  {
+    id: 11,
+    name: "Power-X",
+    image: power,
+    deployed_url: "https://power-x55.web.app/",
+    github_url: "https://github.com/rashedabir/power-x",
+    category: ["react.js"],
   },
   {
     id: 13,
