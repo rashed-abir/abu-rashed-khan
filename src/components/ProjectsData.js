@@ -92,7 +92,7 @@ const Data = [
     image: weshop,
     deployed_url: "https://weeshop.netlify.app/",
     github_url: "https://github.com/rashedabir/we-shop",
-    category: ["react.js", "node.js"],
+    category: ["react.js"],
   },
   {
     id: 11,
