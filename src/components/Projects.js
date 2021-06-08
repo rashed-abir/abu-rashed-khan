@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import Data from "./ProjectsData";
 import { motion } from "framer-motion";
 import { AiOutlineSearch } from "react-icons/ai";
+import { useSelector } from "react-redux";
+import ProjectNavbar from "./ProjectNavbar";
 
 function Projects() {
+  const Data = useSelector((state) => state.allProjects);
   const [projects, setProjects] = useState(Data);
   const [search, setSearch] = useState("");
 
@@ -47,36 +49,7 @@ function Projects() {
       exit="exit"
     >
       <div className="projects_navbar">
-        <div className="projects_navbar-item">
-          <div
-            onClick={() => {
-              setProjects(Data);
-            }}
-          >
-            All
-          </div>
-          <div
-            onClick={() => {
-              handleFilterCategory("react.js");
-            }}
-          >
-            React
-          </div>
-          <div
-            onClick={() => {
-              handleFilterCategory("java");
-            }}
-          >
-            Java
-          </div>
-          <div
-            onClick={() => {
-              handleFilterCategory("javascript");
-            }}
-          >
-            JavaScript
-          </div>
-        </div>
+        <ProjectNavbar Data={Data} setProjects={setProjects} handleFilterCategory={handleFilterCategory} />
         <div className="project-search">
           <input
             placeholder="Search Project"

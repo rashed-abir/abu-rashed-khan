@@ -66,9 +66,9 @@ const Data = [
     id: 7,
     name: "CGPA Calculator",
     image: cgpa,
-    deployed_url: "https://rashedabir.github.io/cgpa_calculator/",
-    github_url: "https://github.com/rashedabir/cgpa_calculator/tree/master",
-    category: ["html", "css", "javascript"],
+    deployed_url: "https://cgpa-find.web.app/",
+    github_url: "https://github.com/rashedabir/cgpa_finder",
+    category: ["react.js", "redux"],
   },
   {
     id: 8,
