@@ -408,6 +408,18 @@ a:hover {
   cursor: pointer;
 }
 
+.test{
+  color: #62aeb2;
+}
+
+.test1{
+  transition: all 0.2s;
+}
+
+.test1:hover{
+  color: #13547a;
+}
+
 @media only screen and (max-width: 600px) {
   .app_main_content {
     margin-top: 10px;
@@ -438,5 +450,8 @@ a:hover {
     margin: 15px auto;
     margin-top: 20px;
     padding: 10px 10px;
+  }
+  .app_main_content {
+    margin-top: 10px;
   }
 }

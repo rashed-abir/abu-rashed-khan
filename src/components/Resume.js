@@ -1,11 +1,11 @@
 import React from "react";
-import Languages from "./Languages";
-import Tools from "./Tools";
+import Languages from "../data/Languages";
+import Tools from "../data/Tools";
 import Bar from "./Bar";
 import { motion } from "framer-motion";
-import EducationData from "./EducationData";
-import ExperienceData from "./ExperienceData";
-import CertificateData from "./CertificateData";
+import EducationData from "../data/EducationData";
+import ExperienceData from "../data/ExperienceData";
+import CertificateData from "../data/CertificateData";
 
 function Resume() {
   const navbar_varient = {

@@ -20,7 +20,8 @@ function App() {
             <div className="col-lg-3">
               <Sidebar />
             </div>
-            <div className="col-lg-9 app_main_content">
+            <div className="col-lg-9">
+              <div className="app_main_content">
               <Navbar />
               <Switch>
                 <Route exact="true" path="/">
@@ -36,6 +37,7 @@ function App() {
                   <Redirect to="/" />
                 </Route>
               </Switch>
+              </div>
             </div>
           </div>
         </div>

@@ -167,7 +167,12 @@ function Sidebar() {
         rel="noopener noreferrer"
         style={{ color: "white" }}
       >
-        <div className="sidebar_item sidebar_email">Hire me</div>
+        <div
+          className="sidebar_item sidebar_email"
+          style={{ textTransform: "uppercase", letterSpacing: "1.5px" }}
+        >
+          HIRE ME
+        </div>
       </a>
     </motion.div>
   );

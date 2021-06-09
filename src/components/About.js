@@ -11,25 +11,50 @@ function About() {
     {
       icon: computer,
       title: "Frontend Development",
-      about:
-        "I can built a beautiful and scalable SPA using HTML,CSS and React.js.",
+      about: [
+        "I can built a beautiful and scalable SPA using",
+        <strong key={1}> HTML </strong>,
+        ",",
+        <strong key={1}> CSS </strong>,
+        "and",
+        <strong key={1}> React.JS </strong>,
+      ],
     },
     {
       icon: backend,
       title: "Backend Development",
-      about:
-        "i can Handle database, server, API using NodeJS, ExpressJS and MySql/MongoDB.",
+      about: [
+        "i can Handle database, server, API using",
+        <strong key={1}> NodeJS </strong>,
+        ",",
+        <strong key={1}> ExpressJS </strong>,
+        "and",
+        <strong key={1}> MySql/MongoDB </strong>,
+      ],
     },
     {
       icon: api,
       title: "API Development",
-      about: "I can Develop robust REST API using ExpressJS-Rest-API.",
+      about: [
+        "I can Develop robust REST API using",
+        <strong key={1}> ExpressJS-Rest-API </strong>,
+        ".",
+      ],
     },
     {
       icon: javag,
       title: "Java Development",
-      about:
-        "I can built java application using java and Oracle, MySql or SQLite database.",
+      about: [
+        "I can built java application using",
+        <strong key={1}> Java </strong>,
+        "and",
+        <strong key={1}> Oracle </strong>,
+        ",",
+        <strong key={1}> MySql </strong>,
+        "or",
+        <strong key={1}> SQLite </strong>,
+        "database.",
+      ],
     },
   ];
 

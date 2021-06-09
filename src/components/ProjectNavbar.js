@@ -1,12 +1,14 @@
 import React from "react";
 
-function ProjectNavbar({ Data, setProjects, handleFilterCategory }) {
+function ProjectNavbar({ handleFilterCategory, active }) {
+
   return (
     <div className="projects_navbar-item">
       <div
-        onClick={() => {
-          setProjects(Data);
-        }}
+      onClick={() => {
+        handleFilterCategory("All");
+      }}
+      className={active === "All" ? "test" : "test1"}
       >
         All
       </div>
@@ -14,6 +16,7 @@ function ProjectNavbar({ Data, setProjects, handleFilterCategory }) {
         onClick={() => {
           handleFilterCategory("react.js");
         }}
+        className={active === "react.js" ? "test" : "test1"}
       >
         React
       </div>
@@ -21,6 +24,7 @@ function ProjectNavbar({ Data, setProjects, handleFilterCategory }) {
         onClick={() => {
           handleFilterCategory("java");
         }}
+        className={active === "java" ? "test" : "test1"}
       >
         Java
       </div>
@@ -28,6 +32,7 @@ function ProjectNavbar({ Data, setProjects, handleFilterCategory }) {
         onClick={() => {
           handleFilterCategory("express.js");
         }}
+        className={active === "express.js" ? "test" : "test1"}
       >
         Express
       </div>

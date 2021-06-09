@@ -1,4 +1,4 @@
-import Data from "../components/ProjectsData";
+import Data from "../data/ProjectsData";
 import { SET_PROJECT, VIEW_PROJECTS } from "../context/projectContext";
 
 const initialState = {

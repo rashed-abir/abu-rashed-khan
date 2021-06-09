@@ -9,12 +9,19 @@ function Projects() {
   const Data = useSelector((state) => state.allProjects);
   const [projects, setProjects] = useState(Data);
   const [search, setSearch] = useState("");
+  const [active, setActive] = useState("All");
 
   const handleFilterCategory = (name) => {
-    const filterData = Data.filter((project) =>
-      project.category.includes(name)
-    );
-    setProjects(filterData);
+    if (name === "All") {
+      setProjects(Data);
+      setActive(name);
+    } else {
+      const filterData = Data.filter((project) =>
+        project.category.includes(name)
+      );
+      setProjects(filterData);
+      setActive(name);
+    }
   };
 
   const handleSearch = projects.filter((project) => {
@@ -49,7 +56,10 @@ function Projects() {
       exit="exit"
     >
       <div className="projects_navbar">
-        <ProjectNavbar Data={Data} setProjects={setProjects} handleFilterCategory={handleFilterCategory} />
+        <ProjectNavbar
+          handleFilterCategory={handleFilterCategory}
+          active={active}
+        />
         <div className="project-search">
           <input
             placeholder="Search Project"
