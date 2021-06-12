@@ -477,29 +477,31 @@ a:hover {
   }
 }
 
-.certificate{
+.certificate {
   display: flex;
   border: 1px solid #181818;
   padding: 5px;
   margin-bottom: -10px;
 }
-.certificate_light{
-  font-size: 13px;
-  border-left: 1px solid #181818;
-  padding-left: 5px;
-  align-items: center;
-  margin: auto;
+
+.certificate_light {
+  background-color: white;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
   color: #000;
-  transition: all 0.2s;
 }
-.certificate_dark{
-  font-size: 13px;
-  border-left: 1px solid #181818;
-  padding-left: 5px;
-  align-items: center;
-  margin: auto;
-  color: grey;
-  transition: all 0.2s;
+
+.certificate_dark {
+  background-color: black;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  color: #fff;
+}
+
+.certificate_view{
+  background-image: linear-gradient(to right bottom, #13547a, #80d0c7);
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* project */
