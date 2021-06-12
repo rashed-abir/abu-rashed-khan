@@ -12,6 +12,11 @@ body {
   user-select: none; /* Non-prefixed version, currently */
 }
 
+.App {
+  background-image: linear-gradient(to right bottom, #13547a, #80d0c7);
+  padding-bottom: 20px;
+}
+
 ::-webkit-scrollbar {
   width: 4px;
 }
@@ -44,20 +49,38 @@ a:hover {
   padding: 25px 15px;
   box-shadow: 0 0 10px rgb(26, 25, 25);
 }
+.app_main_content_light {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 15px;
+  box-shadow: 0 0 10px rgb(26, 25, 25);
+}
+
+/*------------------------sidebar----------------------------*/
 
 .sidebar {
   background-color: black;
   height: 100%;
   border-radius: 20px;
-  padding: 25px 15px;
+  padding: 20px 15px;
+  box-shadow: 0 0 10px rgb(26, 25, 25);
+  text-align: center;
+  color: white;
+}
+
+.sidebar_light {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px 15px;
   box-shadow: 0 0 10px rgb(26, 25, 25);
   text-align: center;
   color: white;
 }
 
 .sidebar_image {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   object-fit: contain;
   border: 3px solid #13547a;
   border-radius: 50%;
@@ -86,7 +109,23 @@ a:hover {
   font-weight: 500;
   margin: 15px 0;
 }
+.sidebar_name_light {
+  font-size: 23px;
+  font-weight: 500;
+  margin: 15px 0;
+  color: #000;
+}
 .sidebar_item {
+  margin-bottom: 6px;
+  margin-top: 6px;
+  padding: 7px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 30px;
+  font-weight: 500;
+  align-items: center;
+}
+.sidebar_item_light {
   margin-bottom: 6px;
   margin-top: 6px;
   padding: 7px;
@@ -103,6 +142,14 @@ a:hover {
   text-align: center;
   margin: auto;
 }
+.sidebar_title_light {
+  background-color: #e6e6e6;
+  border-radius: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  color: #000;
+}
 
 .sidebar_social-icons {
   margin-left: 12px;
@@ -118,6 +165,12 @@ a:hover {
   padding: 2px 0;
   margin: 20px -15px;
 }
+.sidebar_contact_light {
+  background-color: #e6e6e6;
+  color: #000;
+  padding: 2px 0;
+  margin: 20px -15px;
+}
 
 .sidebar_email {
   background-image: linear-gradient(to right bottom, #13547a, #80d0c7);
@@ -127,12 +180,31 @@ a:hover {
   cursor: pointer;
   transition: all 2s;
 }
+.sidebar_theme {
+  border: 1px solid #337991;
+  border-radius: 30px;
+  color: #fff;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.sidebar_theme_light {
+  border: 1px solid #337991;
+  border-radius: 30px;
+  color: #000;
+  margin: 15px 25px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
 
 .sidebar_email:hover {
   transform: scale(1.1);
 }
 .sidebar_resume {
   color: white;
+}
+.sidebar_resume_light {
+  color: black;
 }
 .sidebar_github a {
   color: white;
@@ -145,20 +217,38 @@ a:hover {
   background-color: #f1f1f1;
   color: #13547a;
 }
+.sidebar_resume_light:hover {
+  background-color: #f1f1f1;
+  color: #13547a;
+}
 
-/* navbar  */
+/*------------------------------------ navbar ------------------------------------- */
 .navbar {
   background-color: black;
 }
-
+.navbar_light {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
 .navbar_items {
   display: flex;
 }
-
+.navbar_items_light {
+  display: flex;
+}
 .navbar_active {
   font-size: 1.8rem;
   font-weight: 700;
   color: white;
+  border-bottom: 4px solid #13547a;
+}
+.navbar_active_light {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: black;
   border-bottom: 4px solid #13547a;
 }
 
@@ -169,8 +259,21 @@ a:hover {
   font-size: 1.3rem;
   cursor: pointer;
 }
+.navbar_item_light {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
 
 .navbar_item:hover {
+  background: -webkit-linear-gradient(#13547a, #80d0c7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar_item_light:hover {
   background: -webkit-linear-gradient(#13547a, #80d0c7);
   background-clip: text;
   -webkit-background-clip: text;
@@ -185,6 +288,12 @@ a:hover {
   background-color: black;
   color: rgb(228, 228, 228);
 }
+.about_light {
+  height: 80vh;
+  overflow-y: auto;
+  background-color: white;
+  color: black;
+}
 
 .about_intro {
   font-size: 1rem;
@@ -197,14 +306,31 @@ a:hover {
   background-color: #181818;
   padding: 30px 20px;
 }
+.about_container_light {
+  background-color: #e6e6e6;
+  padding: 30px 20px;
+}
 
 .about_heading {
   font-size: 25px;
   font-weight: 700;
   color: rgb(218, 218, 218);
 }
+.about_heading_light {
+  font-size: 25px;
+  font-weight: 700;
+  color: #181818;
+}
 .skill-card {
   background-color: black;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+.skill-card_light {
+  background-color: white;
   margin: 10px;
   padding: 10px;
   display: flex;
@@ -225,6 +351,11 @@ a:hover {
   color: #c9c9c9;
   text-transform: capitalize;
 }
+.skill-card_content_light {
+  font-size: 0.9rem;
+  color: black;
+  text-transform: capitalize;
+}
 
 /* resume */
 
@@ -233,6 +364,12 @@ a:hover {
   padding-top: 20px;
   overflow-y: auto;
   color: white;
+}
+.resume_light {
+  height: 80vh;
+  padding-top: 20px;
+  overflow-y: auto;
+  color: black;
 }
 
 .resume-language_heading,
@@ -243,25 +380,47 @@ a:hover {
   color: rgb(224, 220, 220);
   margin-top: 10px;
 }
-
+.resume-language_heading_light,
+.resume-card_heading_light {
+  margin-left: 10px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 10px;
+}
 .resume-card_body {
   margin-top: 10px;
   color: rgb(196, 196, 196);
+}
+.resume-card_body_light {
+  margin-top: 10px;
+  color: #181818;
 }
 
 .resume-card_title {
   font-weight: 700;
 }
-
+.resume-card_title_light {
+  font-weight: 700;
+}
 .resume-card_name {
   font-size: 16px;
+}
+.resume-card_name_light {
+  font-size: 16px;
+  font-weight: 500;
 }
 .resume-card_details {
   font-size: 0.9rem;
   padding-top: 5px;
   text-transform: capitalize;
 }
-
+.resume-card_details_light {
+  font-size: 0.9rem;
+  padding-top: 5px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
 .bar {
   width: 95%;
   background-color: #181818;
@@ -269,6 +428,14 @@ a:hover {
   margin-bottom: 12px;
   animation: showText 0.5s 1s linear forwards;
 }
+.bar_light {
+  width: 95%;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  animation: showText 0.5s 1s linear forwards;
+}
+
 @keyframes showText {
   100% {
     opacity: 1;
@@ -317,6 +484,11 @@ a:hover {
   padding-top: 30px;
   overflow-y: auto;
 }
+.projects_light {
+  height: 80vh;
+  padding-top: 30px;
+  overflow-y: auto;
+}
 
 .projectCard_wrapper {
   margin: 10px 0;
@@ -351,10 +523,24 @@ a:hover {
   padding-bottom: 10px;
   color: white;
 }
+.projectCard_title_light {
+  margin-top: 12px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: 500;
+}
 .projectCard_title a {
   color: rgb(207, 205, 205);
 }
+
 .projectCard_title a:hover {
+  color: #13547a;
+}
+.projectCard_title_light a:hover {
   color: #13547a;
 }
 
@@ -364,7 +550,19 @@ a:hover {
   margin: auto;
   flex-wrap: wrap;
 }
-
+.projects_navbar_light {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.project-search_light {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  padding: 3px 7px;
+  width: 280px;
+}
 .project-search {
   display: flex;
   border: 1px solid grey;
@@ -372,6 +570,7 @@ a:hover {
   padding: 3px 7px;
   width: 280px;
 }
+
 .search {
   font-size: 2rem;
   cursor: pointer;
@@ -390,16 +589,33 @@ a:hover {
   border: none;
   z-index: 1;
 }
+.project-search_light input {
+  width: 100%;
+  font-size: 1rem;
+  background: none;
+  color: black;
+  border: none;
+  z-index: 1;
+}
 .project-search input:focus {
   outline: none;
   border: none;
 }
-
+.project-search_light input:focus {
+  outline: none;
+  border: none;
+}
 .projects_navbar-item {
   display: flex;
   margin: 5px 0;
   padding: 3px 7px;
   color: #fff;
+}
+.projects_navbar-item_light {
+  display: flex;
+  margin: 5px 0;
+  padding: 3px 7px;
+  color: black;
 }
 
 .projects_navbar-item > div {
@@ -407,21 +623,30 @@ a:hover {
   font-size: 1rem;
   cursor: pointer;
 }
-
-.test{
-  color: #62aeb2;
+.projects_navbar-item_light > div {
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-.test1{
+.test {
+  color: #62aeb2;
+  font-weight: 500;
+}
+
+.test1 {
   transition: all 0.2s;
 }
 
-.test1:hover{
+.test1:hover {
   color: #13547a;
 }
 
 @media only screen and (max-width: 600px) {
   .app_main_content {
+    margin-top: 10px;
+  }
+  .app_main_content_light {
     margin-top: 10px;
   }
   .projectCard_wrapper {
@@ -433,13 +658,22 @@ a:hover {
   .navbar_item {
     font-size: 1.1rem;
   }
+  .navbar_item_light {
+    font-size: 1.1rem;
+  }
   .navbar_active {
+    font-size: 1.8rem;
+  }
+  .navbar_active_light {
     font-size: 1.8rem;
   }
 }
 
 @media only screen and (max-width: 989px) {
   .bar {
+    width: 100%;
+  }
+  .bar_light {
     width: 100%;
   }
 }
@@ -451,7 +685,16 @@ a:hover {
     margin-top: 20px;
     padding: 10px 10px;
   }
+  .project-search_light {
+    width: 95%;
+    margin: 15px auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+  }
   .app_main_content {
+    margin-top: 10px;
+  }
+  .app_main_content_light {
     margin-top: 10px;
   }
 }

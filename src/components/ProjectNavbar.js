@@ -1,14 +1,15 @@
 import React from "react";
 
-function ProjectNavbar({ handleFilterCategory, active }) {
-
+function ProjectNavbar({ handleFilterCategory, active, light }) {
   return (
-    <div className="projects_navbar-item">
+    <div
+      className={light ? "projects_navbar-item_light" : "projects_navbar-item"}
+    >
       <div
-      onClick={() => {
-        handleFilterCategory("All");
-      }}
-      className={active === "All" ? "test" : "test1"}
+        onClick={() => {
+          handleFilterCategory("All");
+        }}
+        className={active === "All" ? "test" : "test1"}
       >
         All
       </div>

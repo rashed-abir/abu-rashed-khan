@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-function Navbar() {
+function Navbar({ light }) {
   const [active, setActive] = useState("");
 
   useEffect(() => {
@@ -34,17 +34,19 @@ function Navbar() {
 
   return (
     <motion.div
-      className="navbar"
+      className={light ? "navbar_light" : "navbar"}
       variants={navbar_varient}
       initial="hidden"
       animate="visible"
     >
-      <div className="navbar_active">{active}</div>
-      <div className="navbar_items">
+      <div className={light ? "navbar_active_light" : "navbar_active"}>
+        {active}
+      </div>
+      <div className={light ? "navbar_items_light" : "navbar_items"}>
         {active !== "About" && (
           <Link to="/">
             <div
-              className="navbar_item"
+              className={light ? "navbar_item_light" : "navbar_item"}
               onClick={() => {
                 setActive("About");
               }}
@@ -56,7 +58,7 @@ function Navbar() {
         {active !== "Resume" ? (
           <Link to="/resume">
             <div
-              className="navbar_item"
+              className={light ? "navbar_item_light" : "navbar_item"}
               onClick={() => {
                 setActive("Resume");
               }}
@@ -69,7 +71,7 @@ function Navbar() {
         {active !== "Projects" && (
           <Link to="projects">
             <div
-              className="navbar_item"
+              className={light ? "navbar_item_light" : "navbar_item"}
               onClick={() => {
                 setActive("Projects");
               }}

@@ -6,7 +6,7 @@ import javag from "../assets/icons/javag.png";
 import SkillCard from "./SkillCard";
 import { motion } from "framer-motion";
 
-function About() {
+function About({ light }) {
   const skills = [
     {
       icon: computer,
@@ -79,7 +79,7 @@ function About() {
 
   return (
     <motion.div
-      className="about"
+      className={light ? "about_light" : "about"}
       variants={navbar_varient}
       initial="hidden"
       animate="visible"
@@ -95,11 +95,19 @@ function About() {
         different aspect.
       </h6>
 
-      <div className="container about_container">
-        <h6 className="about_heading">What I offer</h6>
+      <div
+        className={
+          light
+            ? "container about_container_light"
+            : "container about_container"
+        }
+      >
+        <h6 className={light ? "about_heading_light" : "about_heading"}>
+          What I offer
+        </h6>
         <div className="row">
           {skills.map((skill) => (
-            <SkillCard skill={skill} />
+            <SkillCard light={light} skill={skill} />
           ))}
         </div>
       </div>

@@ -21,7 +21,10 @@ const navbar_varient = {
   },
 };
 
-function ProjectCard({ project: { name, image, deployed_url, github_url } }) {
+function ProjectCard({
+  project: { name, image, deployed_url, github_url },
+  light,
+}) {
   return (
     <motion.div
       className="projectCard col-md-6 col-lg-4 my-2"
@@ -31,15 +34,12 @@ function ProjectCard({ project: { name, image, deployed_url, github_url } }) {
       exit="exit"
     >
       <figure className="projectCard_wrapper">
-        <a
-          title={name}
-          href={deployed_url}
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a title={name} href={deployed_url} target="_blank" rel="noreferrer">
           <img src={image} alt={name} className="projectCard_image" />
         </a>
-        <div className="projectCard_title">
+        <div
+          className={light ? "projectCard_title_light" : "projectCard_title"}
+        >
           <a
             title="Github url"
             href={github_url}

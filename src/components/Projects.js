@@ -5,7 +5,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { useSelector } from "react-redux";
 import ProjectNavbar from "./ProjectNavbar";
 
-function Projects() {
+function Projects({ light }) {
   const Data = useSelector((state) => state.allProjects);
   const [projects, setProjects] = useState(Data);
   const [search, setSearch] = useState("");
@@ -49,18 +49,19 @@ function Projects() {
 
   return (
     <motion.div
-      className="container projects"
+      className={light ? "container projects_light" : "container projects"}
       variants={navbar_varient}
       initial="hidden"
       animate="visible"
       exit="exit"
     >
-      <div className="projects_navbar">
+      <div className={light ? "projects_navbar_light" : "projects_navbar"}>
         <ProjectNavbar
           handleFilterCategory={handleFilterCategory}
           active={active}
+          light={light}
         />
-        <div className="project-search">
+        <div className={light ? "project-search_light" : "project-search"}>
           <input
             placeholder="Search Project"
             type="text"
@@ -72,7 +73,7 @@ function Projects() {
       <div className="row">
         {handleSearch.length ? (
           handleSearch.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <ProjectCard light={light} key={project.id} project={project} />
           ))
         ) : (
           <h4 className="not-found">" {search} " Not Found</h4>

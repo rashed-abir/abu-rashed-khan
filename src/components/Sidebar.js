@@ -13,7 +13,7 @@ import instagram from "../assets/icons/instagram.png";
 import { motion } from "framer-motion";
 import Typed from "react-typed";
 
-function Sidebar() {
+function Sidebar({ light, setLight }) {
   const handleEmailMe = () => {
     window.open("mailto:abir97bd@gmail.com");
   };
@@ -40,7 +40,7 @@ function Sidebar() {
 
   return (
     <motion.div
-      className="sidebar"
+      className={light ? "sidebar_light" : "sidebar"}
       variants={navbar_varient}
       initial="hidden"
       animate="visible"
@@ -51,10 +51,19 @@ function Sidebar() {
         alt="Rashed Abir"
         className="sidebar_image"
       />
-      <div className="sidebar_name" title="Rashed Abir">
+      <div
+        className={light ? "sidebar_name_light" : "sidebar_name"}
+        title="Rashed Abir"
+      >
         Abu Rashed Khan
       </div>
-      <div className="sidebar_item sidebar_title">
+      <div
+        className={
+          light
+            ? "sidebar_item_light sidebar_title_light"
+            : "sidebar_item sidebar_title"
+        }
+      >
         <Typed
           strings={[
             "Computer Engineer",
@@ -70,7 +79,13 @@ function Sidebar() {
         />
       </div>
       <a href={aburashedkhan} download="aburashedkhan.pdf">
-        <div className="sidebar_item sidebar_resume">
+        <div
+          className={
+            light
+              ? "sidebar_item_light sidebar_resume_light"
+              : "sidebar_item sidebar_resume"
+          }
+        >
           <img className="sidebar_icon" src={tie} alt="Rashed Abir" />
           Download Resume
         </div>
@@ -126,8 +141,14 @@ function Sidebar() {
           />
         </a>
       </figure>
-      <div className="sidebar_contact">
-        <div className="sidebar_item sidebar_github">
+      <div className={light ? "sidebar_contact_light" : "sidebar_contact"}>
+        <div
+          className={
+            light
+              ? "sidebar_item_light sidebar_github_light"
+              : "sidebar_item sidebar_github"
+          }
+        >
           <a
             href="https://github.com/rashedabir"
             target="_blank"
@@ -160,6 +181,19 @@ function Sidebar() {
           <img alt="Rashed Abir" className="sidebar_icon" src={phone} />
           +880 162 9341869
         </div>
+      </div>
+      <div
+        className={
+          light
+            ? "sidebar_item_light sidebar_theme_light"
+            : "sidebar_item sidebar_theme"
+        }
+        style={{ textTransform: "uppercase", letterSpacing: "1.5px" }}
+        onClick={() => {
+          setLight(!light);
+        }}
+      >
+        {light ? "dark ui" : "light ui"}
       </div>
       <a
         href="https://www.fiverr.com/rashedkhan126"
