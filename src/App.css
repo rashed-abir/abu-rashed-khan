@@ -477,6 +477,31 @@ a:hover {
   }
 }
 
+.certificate{
+  display: flex;
+  border: 1px solid #181818;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+.certificate_light{
+  font-size: 13px;
+  border-left: 1px solid #181818;
+  padding-left: 5px;
+  align-items: center;
+  margin: auto;
+  color: #000;
+  transition: all 0.2s;
+}
+.certificate_dark{
+  font-size: 13px;
+  border-left: 1px solid #181818;
+  padding-left: 5px;
+  align-items: center;
+  margin: auto;
+  color: grey;
+  transition: all 0.2s;
+}
+
 /* project */
 
 .projects {
