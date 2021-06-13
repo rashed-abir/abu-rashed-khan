@@ -498,7 +498,7 @@ a:hover {
   color: #fff;
 }
 
-.certificate_view{
+.certificate_view {
   background-image: linear-gradient(to right bottom, #13547a, #80d0c7);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -656,16 +656,16 @@ a:hover {
   cursor: pointer;
 }
 
-.test {
+.active_nav {
   color: #62aeb2;
   font-weight: 500;
 }
 
-.test1 {
+.nav {
   transition: all 0.2s;
 }
 
-.test1:hover {
+.nav:hover {
   color: #13547a;
 }
 

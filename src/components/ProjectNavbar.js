@@ -3,39 +3,43 @@ import React from "react";
 function ProjectNavbar({ handleFilterCategory, active, light }) {
   return (
     <div
-      className={light ? "projects_navbar-item_light" : "projects_navbar-item"}
+      className={
+        light
+          ? "projects_navbar-item_light text-capitalize"
+          : "projects_navbar-item text-capitalize"
+      }
     >
       <div
         onClick={() => {
           handleFilterCategory("All");
         }}
-        className={active === "All" ? "test" : "test1"}
+        className={active === "All" ? "active_nav" : "nav"}
       >
-        All
+        all
       </div>
       <div
         onClick={() => {
           handleFilterCategory("react.js");
         }}
-        className={active === "react.js" ? "test" : "test1"}
+        className={active === "react.js" ? "active_nav" : "nav"}
       >
-        React
+        react
       </div>
       <div
         onClick={() => {
           handleFilterCategory("java");
         }}
-        className={active === "java" ? "test" : "test1"}
+        className={active === "java" ? "active_nav" : "nav"}
       >
-        Java
+        java
       </div>
       <div
         onClick={() => {
           handleFilterCategory("express.js");
         }}
-        className={active === "express.js" ? "test" : "test1"}
+        className={active === "express.js" ? "active_nav" : "nav"}
       >
-        Express
+        express
       </div>
     </div>
   );

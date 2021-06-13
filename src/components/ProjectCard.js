@@ -45,6 +45,7 @@ function ProjectCard({
             href={github_url}
             target="_blank"
             rel="noreferrer"
+            className="text-capitalize"
           >
             <img src={github1} alt="github url" className="projectCard_icon" />
             {name}
