@@ -12,7 +12,12 @@ function CertificateCard({ data, light }) {
       >
         {data.heading}
         <span className="badge bg-primary rounded-pill certificate_view">
-          <a target="_blank" rel="noreferrer" className="text-white" href={data.link}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="text-white"
+            href={data.link}
+          >
             view
           </a>
         </span>
