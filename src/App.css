@@ -697,6 +697,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 989px) {
+  body {
+    background-image: linear-gradient(to right bottom, #232526, #414345);
+  }
   .bar {
     width: 100%;
   }
