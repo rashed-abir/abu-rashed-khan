@@ -39,7 +39,7 @@ function ProjectNavbar({ handleFilterCategory, active, light }) {
         }}
         className={active === "express.js" ? "active_nav" : "nav"}
       >
-        express
+        MERN
       </div>
     </div>
   );

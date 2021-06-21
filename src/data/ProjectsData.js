@@ -12,6 +12,8 @@ import mern_ecommerce from "../assets/projects_images/mern_ecommerce.png";
 import expense from "../assets/projects_images/expense.png";
 import food from "../assets/projects_images/food.png";
 import power from "../assets/projects_images/power.png";
+import dhakalegal from "../assets/projects_images/dhakalegal.png";
+import memegen from "../assets/projects_images/memegen.png";
 
 const Data = [
   {
@@ -103,12 +105,28 @@ const Data = [
     category: ["react.js"],
   },
   {
+    id: 12,
+    name: "dhaka legal practice",
+    image: dhakalegal,
+    deployed_url: "https://dhaka-legal.web.app/",
+    github_url: "https://github.com/rashedabir/dhaka_legal_practice",
+    category: ["react.js", "redux"],
+  },
+  {
     id: 13,
     name: "News Application",
     image: news,
     deployed_url: "https://news360app.herokuapp.com/",
     github_url: "https://github.com/rashedabir/news_app",
     category: ["react.js", "node.js"],
+  },
+  {
+    id: 14,
+    name: "meme generator",
+    image: memegen,
+    deployed_url: "https://meme-gen55.web.app/",
+    github_url: "https://github.com/rashedabir/meme_generator",
+    category: ["react.js"],
   },
   {
     id: 15,
