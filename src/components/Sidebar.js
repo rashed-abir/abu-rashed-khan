@@ -7,8 +7,6 @@ import github1 from "../assets/icons/github1.png";
 import tie from "../assets/icons/tie.png";
 import pin from "../assets/icons/pin.png";
 import aburashedkhan from "../assets/aburashedkhan.pdf";
-import email from "../assets/icons/email.png";
-import phone from "../assets/icons/phone.png";
 import instagram from "../assets/icons/instagram.png";
 import { motion } from "framer-motion";
 import Typed from "react-typed";
@@ -154,6 +152,7 @@ function Sidebar({ light, setLight }) {
             target="_blank"
             rel="noopener noreferrer"
             title="Github Link"
+            style={{ alignItems: "center" }}
           >
             <img
               src={github1}
@@ -164,12 +163,20 @@ function Sidebar({ light, setLight }) {
             Github
           </a>
         </div>
-        <div className="sidebar_item" title="Location">
-          <img alt="Location" className="sidebar_icon" src={pin} />
-          Dhaka, Bangladesh
+        <div
+          className="sidebar_item"
+          title="Location"
+          style={{ alignItems: "center" }}
+        >
+          <img
+            style={{ marginTop: "-15px" }}
+            alt="Location"
+            className="sidebar_icon"
+            src={pin}
+          />
+          Cumilla, Bangladesh
         </div>
         <div className="sidebar_item" onClick={handleEmailMe} title="Click">
-          <img alt="Rashed Abir" className="sidebar_icon" src={email} />
           Abir97bd@gmail.com
         </div>
         <div
@@ -178,7 +185,6 @@ function Sidebar({ light, setLight }) {
           style={{ cursor: "pointer" }}
           title="Click"
         >
-          <img alt="Rashed Abir" className="sidebar_icon" src={phone} />
           +880 162 9341869
         </div>
       </div>

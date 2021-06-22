@@ -710,13 +710,13 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
   .project-search {
-    width: 95%;
+    width: 100%;
     margin: 15px auto;
     margin-top: 20px;
     padding: 10px 10px;
   }
   .project-search_light {
-    width: 95%;
+    width: 100%;
     margin: 15px auto;
     margin-top: 20px;
     padding: 10px 10px;
