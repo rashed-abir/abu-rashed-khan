@@ -14,6 +14,7 @@ import food from "../assets/projects_images/food.png";
 import power from "../assets/projects_images/power.png";
 import dhakalegal from "../assets/projects_images/dhakalegal.png";
 import memegen from "../assets/projects_images/memegen.png";
+import contacts from "../assets/projects_images/contacts.png";
 
 const Data = [
   {
@@ -138,6 +139,14 @@ const Data = [
   },
   {
     id: 16,
+    name: "contacts book",
+    image: contacts,
+    deployed_url: "https://contacts-books.web.app/",
+    github_url: "https://github.com/rashedabir/contacts_book",
+    category: ["react.js", "redux"],
+  },
+  {
+    id: 17,
     name: "Library Management System",
     image: library,
     deployed_url: "https://github.com/rashedabir/Library_management_oracle",
