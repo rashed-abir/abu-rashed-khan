@@ -155,9 +155,8 @@ a:hover {
   margin-left: 12px;
 }
 
-.phone:hover {
-  background-color: #f1f1f1;
-  color: #13547a;
+.phone{
+  cursor: pointer;
 }
 
 .sidebar_contact {
@@ -202,9 +201,11 @@ a:hover {
 }
 .sidebar_resume {
   color: white;
+  transition: all 0.4s;
 }
 .sidebar_resume_light {
   color: black;
+  transition: all 0.4s;
 }
 .sidebar_github a {
   color: white;

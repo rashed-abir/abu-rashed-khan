@@ -176,14 +176,17 @@ function Sidebar({ light, setLight }) {
           />
           Cumilla, Bangladesh
         </div>
-        <div className="sidebar_item" onClick={handleEmailMe} title="Click">
+        <div
+          className="sidebar_item"
+          onClick={handleEmailMe}
+          title="Click to Email"
+        >
           Abir97bd@gmail.com
         </div>
         <div
           className="sidebar_item phone"
           onClick={handleCallMe}
-          style={{ cursor: "pointer" }}
-          title="Click"
+          title="Click to Execute Call"
         >
           +880 162 9341869
         </div>
