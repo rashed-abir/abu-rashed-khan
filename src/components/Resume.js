@@ -29,6 +29,7 @@ function Resume({ light }) {
     },
   };
 
+
   return (
     <motion.div
       className={light ? "container resume_light" : "container resume"}
@@ -104,7 +105,7 @@ function Resume({ light }) {
             ))}
           </div>
         </div>
-        <div className="col-lg-6 resume-card">
+        <div className="">
           <h4
             className={
               light

@@ -24,7 +24,7 @@ const Languages = [
   {
     icon: js,
     name: "JavaScript",
-    level: "75",
+    level: "77",
   },
   {
     icon: c,
@@ -34,12 +34,12 @@ const Languages = [
   {
     icon: react,
     name: "React JS",
-    level: "75",
+    level: "80",
   },
   {
     icon: node,
     name: "Node JS",
-    level: "50",
+    level: "55",
   },
   {
     icon: materia,
@@ -49,7 +49,7 @@ const Languages = [
   {
     icon: html,
     name: "HTML & CSS",
-    level: "75",
+    level: "80",
   },
   {
     icon: sql,

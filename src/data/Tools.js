@@ -5,7 +5,6 @@ import cam from "../assets/icons/cam.svg";
 import postman from "../assets/icons/postman.svg";
 import mongo from "../assets/icons/mongo.svg";
 import office from "../assets/icons/office.svg";
-import power from "../assets/icons/power.svg";
 import figma from "../assets/icons/figma.svg";
 
 
@@ -46,14 +45,9 @@ const Tools = [
     level: "75",
   },
   {
-    icon: power,
-    name: "Microsoft Power BI",
-    level: "60",
-  },
-  {
     icon: figma,
     name: "Figma",
-    level: "40",
+    level: "45",
   },
 ];
 

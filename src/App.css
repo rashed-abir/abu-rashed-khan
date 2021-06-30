@@ -458,6 +458,10 @@ a:hover {
   transform: scaleX(0);
   animation: animate 1.25s cubic-bezier(1, 1, 0.5, 1) forwards;
 }
+.level{
+  font-size: 10px;
+  margin-top: 3.5px;
+}
 @keyframes animate {
   100% {
     transform: scaleX(1);
