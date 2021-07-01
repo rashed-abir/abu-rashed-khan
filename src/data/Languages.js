@@ -44,7 +44,7 @@ const Languages = [
   {
     icon: materia,
     name: "Material UI",
-    level: "60",
+    level: "65",
   },
   {
     icon: html,
