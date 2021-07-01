@@ -676,7 +676,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .app_main_content {
-    margin-top: 10px;
+    margin-bottom: 15px;
   }
   .app_main_content_light {
     margin-top: 10px;
