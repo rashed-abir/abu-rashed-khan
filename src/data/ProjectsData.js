@@ -15,6 +15,7 @@ import power from "../assets/projects_images/power.png";
 import dhakalegal from "../assets/projects_images/dhakalegal.png";
 import memegen from "../assets/projects_images/memegen.png";
 import contacts from "../assets/projects_images/contacts.png";
+import doctor from "../assets/projects_images/doctor.png";
 
 const Data = [
   {
@@ -147,6 +148,14 @@ const Data = [
   },
   {
     id: 17,
+    name: "Doctors Appoinment",
+    image: doctor,
+    deployed_url: "https://doctor-vai.web.app/",
+    github_url: "https://github.com/rashedabir/doctor_vai",
+    category: ["java", "oracle"],
+  },
+  {
+    id: 18,
     name: "Library Management System",
     image: library,
     deployed_url: "https://github.com/rashedabir/Library_management_oracle",
