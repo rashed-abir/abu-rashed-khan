@@ -43,8 +43,8 @@ const Languages = [
   },
   {
     icon: materia,
-    name: "Material UI",
-    level: "65",
+    name: "MaterialUI",
+    level: "68",
   },
   {
     icon: html,
