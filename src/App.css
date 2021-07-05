@@ -429,6 +429,9 @@ a:hover {
   margin-bottom: 12px;
   animation: showText 0.5s 1s linear forwards;
 }
+.bar_name{
+  text-transform: capitalize;
+}
 .bar_light {
   width: 95%;
   background-color: #e6e6e6;

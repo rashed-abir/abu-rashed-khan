@@ -1,4 +1,5 @@
 import gitw from "../assets/icons/gitw.png";
+import android from "../assets/icons/android.png";
 import photo from "../assets/icons/photo.svg";
 import filmora from "../assets/icons/filmora.svg";
 import cam from "../assets/icons/cam.svg";
@@ -48,6 +49,11 @@ const Tools = [
     icon: figma,
     name: "Figma",
     level: "45",
+  },
+  {
+    icon: android,
+    name: "android studio",
+    level: "67",
   },
 ];
 
