@@ -13,7 +13,7 @@ import Typed from "react-typed";
 
 function Sidebar({ light, setLight }) {
   const handleEmailMe = () => {
-    window.open("mailto:abir97bd@gmail.com");
+    window.open("mailto:rashedabir.cse@gmail.com");
   };
 
   const handleCallMe = () => {
@@ -181,7 +181,7 @@ function Sidebar({ light, setLight }) {
           onClick={handleEmailMe}
           title="Click to Email"
         >
-          Abir97bd@gmail.com
+          rashedabir.cse@gmail.com
         </div>
         <div
           className="sidebar_item phone"
